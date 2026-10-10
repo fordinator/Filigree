@@ -18,4 +18,4 @@ for(const file of files.filter(f=>f.endsWith('.js'))) {
 for(const file of await readdir(join(root,'presets')))if(file.endsWith('.json'))parseSceneBank(await readFile(join(root,'presets',file),'utf8'));
 const manifest=JSON.parse(await readFile(join(root,'manifest.json'),'utf8'));
 for(const key of ['js','css'])await access(join(root,manifest[key]));
-console.log('Runtime syntax/imports, manifest, required assets, and all eight scene banks verified.');
+console.log('Runtime syntax/imports, manifest, required assets, and bundled scene bank verified.');

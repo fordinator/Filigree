@@ -55,11 +55,17 @@ test('Filigree reads old campaign and draft, then saves under the new namespace'
  c.chatMetadata.dmbotAdventureDraft={step:'choose'};
  c.extensionSettings.dmbotAdventure={enabled:true,preset:'dmbot-ULTRA'};
  assert.equal(a.load().id,'old');assert.equal(a.draft().step,'choose');
- assert.equal(a.settings().preset,'ultra');
+ assert.equal(a.settings().preset,'scenes');
  await a.save({id:'new',revision:2,history:[]});
  assert.equal(c.chatMetadata.filigree.id,'new');
  assert.equal(c.chatMetadata.dmbotAdventure.id,'old');
  await a.saveDraft(null);assert.equal(a.draft(),null);
  await a.clearAdventure();
  for(const key of ['filigree','filigreeDraft','filigreeImportBackup','dmbotAdventure','dmbotAdventureDraft','dmbotAdventureImportBackup'])assert.equal(c.chatMetadata[key],null);
+});
+test('removed preset setting falls back to default without discarding a custom bank',()=>{
+ const {a,c}=setup();const customBank={schemaVersion:1,metadata:{name:'My world'},story:{turn_budget:{min:22,max:32}}};
+ c.extensionSettings.filigree={enabled:true,preset:'frontier',customBank};
+ assert.equal(a.settings().preset,'scenes');
+ assert.deepEqual(a.settings().customBank,customBank);
 });

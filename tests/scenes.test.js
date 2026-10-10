@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile,readdir } from 'node:fs/promises';
 const m=await import('../src/core/scenes.js').catch(()=>({}));
 const run=(n,...a)=>{ assert.equal(typeof m[n],'function',n+' implemented'); return m[n](...a); };
 const bank={metadata:{name:'Test'},story:{turn_budget:{min:22,max:32}},scene_cues:{situations:['A','B'],details:['C']},prompt_text:{base:['Be concrete.'],kinds:{opening:['Begin.']},length:['Limit {word_limit} words.']}};
@@ -24,11 +24,10 @@ test('manual story and phase inference do not reveal plot in visible controls',(
   assert.equal(run('phaseForArc',{...a,turn_count:200}).id,'act3');
   assert.equal(run('phaseForArc',{...a,turn_count:2},{status:'active',objectives:[{status:'completed'},{status:'active'}]}).id,'act1');
 });
-test('all provided banks validate and preserve their named contents',async()=>{
-  for(const name of ['scenes','ultra','frontier','bridge-gpt','bridge-fantasy-modern','bridge-zim','hybrid','frontier-pre-vtm']){
-    const b=run('parseSceneBank',await readFile(new URL('../presets/'+name+'.json',import.meta.url),'utf8'));
-    assert.ok(b.metadata);
-  }
+test('the only bundled bank is the usable general default',async()=>{
+  assert.deepEqual((await readdir(new URL('../presets/',import.meta.url))).filter(name=>name.endsWith('.json')),['scenes.json']);
+  const b=run('parseSceneBank',await readFile(new URL('../presets/scenes.json',import.meta.url),'utf8'));
+  assert.ok(b.metadata);
 });
 test('narration prompts include intent, outcome contracts, author text, and definite ending',()=>{
   const c={bank:{...bank,trivial_contracts:{'4':'Reveal a useful detail.'}},character:{stats:{STR:1},description:'Courier'},arc:{premise:'P',pressure:'Q',anchors:[],movements:['A','B','C'],turn_budget:22,turn_count:1},recentNotes:[]};

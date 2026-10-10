@@ -79,6 +79,8 @@ test('rolled character sign constraints and draft reload',async({page})=>{
 });
 test('scene builder edits data, rejects malformed JSON and exports',async({page})=>{
  await page.getByRole('button',{name:'Scene builder',exact:true}).first().click();
+ await expect(page.getByLabel('Scene preset').locator('option')).toHaveCount(1);
+ await expect(page.getByLabel('Scene preset').locator('option')).toHaveText('scenes');
  await page.getByRole('button',{name:'Advanced JSON',exact:true}).click();
  await page.getByLabel('Scene bank JSON').fill('{broken');
  await page.getByRole('button',{name:'Validate JSON',exact:true}).click();
@@ -336,7 +338,7 @@ test('existing campaign metadata and annotations migrate without losing the stor
  });
  await page.reload();
  await expect(page.getByLabel('Your action')).toBeVisible();
- expect(await page.evaluate(()=>testApp.adapter.settings().preset)).toBe('ultra');
+ expect(await page.evaluate(()=>testApp.adapter.settings().preset)).toBe('scenes');
  await page.getByLabel('Your action').fill('I ask who guards the crossing.');
  await page.getByRole('button',{name:'Send action',exact:true}).click();
  await expect(page.getByRole('button',{name:/Roll DEX vs DV/})).toBeVisible();

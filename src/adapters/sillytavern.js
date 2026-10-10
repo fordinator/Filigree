@@ -4,7 +4,6 @@ export const NAMESPACE='filigree';
 export const LEGACY_NAMESPACE='dmbotAdventure';
 const DRAFT='filigreeDraft', LEGACY_DRAFT='dmbotAdventureDraft';
 const IMPORT_BACKUP='filigreeImportBackup', LEGACY_IMPORT_BACKUP='dmbotAdventureImportBackup';
-const legacyPresetNames={'dmbot-ULTRA':'ultra','dmbot-frontier-scenes':'frontier','dmbot-bridge-scenes-gpt':'bridge-gpt','dmbot-bridge-scenes-fantasy-modern':'bridge-fantasy-modern','dmbot-bridge-scenes-zim':'bridge-zim','dm-bot-2-scenes-06281037p':'hybrid','dmbot-frontier-scenes.backup-pre-vtm':'frontier-pre-vtm'};
 const stored=(metadata,key,oldKey)=>Object.hasOwn(metadata,key)?metadata[key]:metadata[oldKey];
 export const annotatedTurn=message=>message.extra?.filigree?.turnId??message.extra?.dmbot?.turnId;
 export class SillyTavernAdapter {
@@ -89,7 +88,7 @@ export class SillyTavernAdapter {
     c.chatMetadata[IMPORT_BACKUP]=clone(state);await c.saveChat();
   }
   settings() {
-    const c=this.context();const value=c.extensionSettings[NAMESPACE]??=clone(c.extensionSettings[LEGACY_NAMESPACE]??{enabled:true,preset:'scenes'});value.preset=legacyPresetNames[value.preset]??value.preset;return value;
+    const c=this.context();const value=c.extensionSettings[NAMESPACE]??=clone(c.extensionSettings[LEGACY_NAMESPACE]??{enabled:true,preset:'scenes'});value.preset='scenes';return value;
   }
   saveSettings() {this.context().saveSettingsDebounced();}
   async saveDraft(draft) {

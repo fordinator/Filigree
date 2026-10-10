@@ -26,6 +26,8 @@ Behind the scenes are working a complex system of plot hooks, narrative elements
 
 After **MANY MANY MANY** hours of testing, I determined for myself that LLM storylines suck. The characters are bland, the description is uninteresting, the plot either reflects whatever the user says or lingers in a "limbo" state where nothing really happens. To fix this, me and AI *itself* worked out a "scene bank" system. This is a "seed file" with `json` parsed values that are "injected" into the system prompt at set intervals to keep them lively. (You can view the default inside the 'scene banks' folder in this repo, submissions are welcome!)
 
+Filigree bundles one selectable default: `presets/scenes.json`. The JSON in `scene banks/` is a reference copy, not a second installed preset. Existing campaigns retain their embedded bank material; old preset selections fall back to the default. Imported and edited custom banks still work.
+
 The cool part about this is you can pass the `json` to a decent LLM model and say for example, "write me a scene bank in this format for the Airwolf show on classic television." Then you can IMPORT it into Filigree and play an adventure that's generally "structured" without you actually knowing what it is. The Scene Bank editor is in the upper right of the panel, you have to IMPORT from `json` then "save for future adventures." This portion is **INCOMPLETE**, so maintaining a list of available "banks" is currently NOT supported -- you have to import each one yourself and SAVE, unless I decide to actually improve this system further.
 
 ## So what's actually left of SillyTavern?

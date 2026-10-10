@@ -1,6 +1,6 @@
 import {activeBrief} from './ledger.js';
 import { CV_GUIDANCE, integer, BOUNDED_ESCALATION, pacingPrompt } from './rules.js';
-export const PRESETS = ['scenes','ultra','frontier','bridge-gpt','bridge-fantasy-modern','bridge-zim','hybrid','frontier-pre-vtm'];
+export const PRESETS = ['scenes'];
 export const object = x => x !== null && typeof x === 'object' && !Array.isArray(x);
 export const list = x => Array.isArray(x) ? x.filter(v=>typeof v==='string'&&v.trim()) : typeof x==='string'&&x.trim() ? [x] : [];
 export function safeParse(text, limit=2_000_000) {

@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Removed the seven alternate bundled scene banks. The general `scenes` bank is now the only bundled preset.
+- Older preset selections fall back to `scenes`; existing campaigns keep their embedded bank data, and custom/imported banks remain supported.
+
 ## 0.6.0 — Filigree
 
 - Renamed the extension, installation folder, manifest, package, interface, preset slugs, exports, and current documentation to Filigree.
