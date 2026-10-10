@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "name": "Bridge Fantasy-to-Modern Scene Bank",
+    "version": 2,
+    "notes": "A D&D-flavored scene bank for a fantasy adventurer transported to the modern world. It keeps the beats centered on wonder, disorientation, cultural clash, and the struggle to survive with magic that no longer works as expected."
+  },
+  "story": {
+    "manual_synopsis": "In the days and nights after being pulled from a sword-and-sorcery realm, a seasoned adventurer must navigate a world of glass towers, roaring metal carriages, and people who have never heard of gods or gods. The character must figure out what is real here, how to survive without reliable magic, and whether there is any way back home.",
+    "central_goal": "Survive in an alien world, understand the rules of this place, protect any mortal connections made along the way, and decide whether to seek a path back to the old world or carve a new life here.",
+    "central_pressure": "displacement, wonder, fear, and the gap between ancient power and modern indifference",
+    "stakes": "The character's sense of self, the safety of new friends, the possibility of returning home, and the fate of both worlds if the bridge between them is exploited.",
+    "acts": {
+      "act1": "Wake in the modern world with no understanding of its customs, technology, or dangers. Scavenge for food, shelter, and answers while grappling with the failure or distortion of familiar magic.",
+      "act2": "Navigate the modern city as a stranger among millions. Build fragile alliances, confront the limits of old skills, and discover that the forces that brought the character here may not be finished.",
+      "act3": "Face the entity, artifact, or conspiracy behind the crossing and decide what must be given up to return—or to stay."
+    },
+    "climax": "The veil between worlds thins, and the character must choose between home and the new life they have fought to protect, with both options carrying irreversible cost.",
+    "conclusion": "Settle what remains of the bridge, who knows the truth, and what kind of hero emerges from the journey between worlds.",
+    "turn_budget": {
+      "min": 24,
+      "max": 30
+    },
+    "recurring_cast": [
+      "a mentor figure from the old world (vision, dream, or lingering presence)",
+      "a modern ally who takes the character in",
+      "a pursuer from the old world who followed through the breach",
+      "a scholar or investigator who suspects the character's secret"
+    ],
+    "primary_location": "the modern city, centered on the character's temporary shelter and the streets, alleys, and public spaces that shape their early survival",
+    "recurring_focus": "the first attempts to function in this world and the consequences of each failure or breakthrough"
+  },
+  "fragments": {
+    "settings": {
+      "urban": [
+        "a 24-hour convenience store under buzzing fluorescent lights",
+        "a subway platform with strangers ignoring everything",
+        "a hospital emergency waiting room",
+        "a fast-food restaurant at 3 AM",
+        "a laundromat with broken machines",
+        "a rooftop parking deck overlooking the skyline",
+        "a shelter intake line under a bridge",
+        "a 24-hour gym with mirrored walls"
+      ],
+      "liminal": [
+        "a motel room with thin walls and a flickering sign outside",
+        "a stairwell between occupied floors of an apartment building",
+        "a library after hours, alone under reading lamps",
+        "a bridge walkway at midnight with no one to pass",
+        "a subway car with one other passenger",
+        "a hotel corridor that smells like old carpet and bleach",
+        "a train platform where the schedule means nothing",
+        "a stairwell between locked floors"
+      ],
+      "institutional": [
+        "a shelter intake desk with a tired clerk",
+        "a police station front desk with a phone that never stops ringing",
+        "a hospital corridor at night with distant monitors",
+        "a government office with a locked door and a sign that says 'closed'",
+        "a university library basement with dusty archives",
+        "a church with open doors and a warm interior",
+        "a community center room with folding chairs",
+        "a social services office with a waiting list"
+      ],
+      "suburban": [
+        "a quiet street after midnight with streetlights humming",
+        "a kitchen table with a stranger's family breakfast",
+        "a garage with tools the character does not recognize",
+        "a backyard fence with a neighbor's dog barking",
+        "a corner store with a bored cashier",
+        "a strip-mall hallway with a vending machine",
+        "a spare bedroom with a thin mattress",
+        "a house where the curtains never quite close"
+      ]
+    },
+    "pressures": {
+      "displacement": [
+        "the shock of a world without gods or monsters",
+        "the ache of a home that may no longer exist",
+        "a sound or sight that triggers a memory of the old world",
+        "a moment of clarity that everything is different now",
+        "the fear of forgetting who they were",
+        "a body trying to adapt to a world that does not match its instincts",
+        "the first real test of patience in a world that moves too fast",
+        "a skill that used to save their life now useless"
+      ],
+      "secrecy": [
+        "a stranger noticing the character's strange speech or manner",
+        "a phone camera catching something that should not be there",
+        "a weapon or object that has to be hidden",
+        "an alibi that cannot survive scrutiny",
+        "a voice slipping into an old tongue when startled",
+        "the risk of being seen doing something impossible",
+        "a rumor that the character is not who they say they are",
+        "the modern world starting to ask the right questions"
+      ],
+      "debt": [
+        "a favor owed to the modern ally who took them in",
+        "a message or vision from the old world demanding attention",
+        "a claim on the character's time or loyalty",
+        "a borrowed shelter with conditions attached",
+        "a promise made in panic that must be kept",
+        "a price for keeping the secret quiet",
+        "a debt that arrives before the character understands the currency",
+        "a ledger of obligations opening to the wrong page"
+      ],
+      "territory": [
+        "someone else controlling the space the character needs",
+        "a boundary the character was not told about",
+        "a local predator or gang guarding the area",
+        "a safe route that belongs to another group",
+        "a neighborhood with unwritten rules the character does not know",
+        "a place that looks empty but is not unclaimed",
+        "a warning left where a territorial sign should be",
+        "a quiet war over who gets to control the streets"
+      ],
+      "mortal_ties": [
+        "a modern friend calling at the wrong time",
+        "a roommate, coworker, or shelter neighbor asking where the character went",
+        "a job or volunteer shift the character cannot explain missing",
+        "a dependent who needs the character to stay visible and functional",
+        "a promise the character's confusion makes harder to keep",
+        "someone who remembers the character before the crossing",
+        "a human relationship changing in ways the character cannot hide",
+        "the urge to protect someone by lying to them"
+      ],
+      "dawn": [
+        "the clock running toward a day the character must face",
+        "a storm that will not let the night end cleanly",
+        "a blacked-out street that still will not feel safe",
+        "a window with too much light in it",
+        "a need to find shelter fast",
+        "the last hour before the world turns hostile",
+        "a route home that is suddenly too long",
+        "the pressure of having nowhere to rest through daylight"
+      ]
+    },
+    "focuses": {
+      "npcs": [
+        "a wary modern friend",
+        "a messenger or vision from the old world",
+        "a local predator or gang member",
+        "a night-shift nurse or shelter worker",
+        "a security guard who noticed too much",
+        "a bartender or barista who keeps secrets",
+        "a human investigator or journalist",
+        "a fixer or underground contact",
+        "a fellow displaced person or rival traveler",
+        "a stranger who seems to know more than they should"
+      ],
+      "objects": [
+        "a bloodied or torn piece of old-world clothing",
+        "a phone with one unread message from home",
+        "a key or token from the old world",
+        "a ledger of debts or obligations",
+        "a black envelope with no sender",
+        "a strange artifact that still hums faintly",
+        "a camera memory card with impossible photos",
+        "a ring or trinket left behind after a crisis",
+        "a receipt that proves where the character was",
+        "a sealed note with no return address"
+      ],
+      "locations": [
+        "a sealed motel room",
+        "a feeding alley or shelter entrance",
+        "a safehouse apartment",
+        "a church basement used for storage",
+        "a rooftop escape route",
+        "a back booth in a 24-hour diner",
+        "a parking garage stairwell",
+        "a train platform at midnight",
+        "a locked archive room in a library",
+        "a private room in a community center"
+      ],
+      "relationships": [
+        "a mentor from the old world and the character",
+        "an old friend who does not know the truth",
+        "a mortal dependency that still matters",
+        "a rival who wants the same shelter or resources",
+        "a protector who charges a price",
+        "a person who suspects the crossing",
+        "a tentative alliance built on shared displacement",
+        "a handler who expects obedience in the new world"
+      ],
+      "questions": [
+        "how much of the old life can survive",
+        "who knows about the crossing",
+        "what the hidden rules of this world actually are",
+        "who benefits from the character's ignorance",
+        "which mortal tie must be protected",
+        "what the old world did not explain",
+        "whether mercy is still possible here",
+        "what the next day will demand"
+      ]
+    },
+    "motions": {
+      "approach": [
+        "step forward boldly",
+        "ask for help in the old way, then correct course",
+        "reach for a spell that flickers and fails",
+        "interrupt the conversation",
+        "show the evidence",
+        "test the boundary of the space",
+        "make the first move",
+        "listen before acting"
+      ],
+      "investigate": [
+        "trace the magical residue",
+        "check the cameras or phones",
+        "search the shelter room",
+        "question the witness",
+        "compare the stories",
+        "follow the strange marks",
+        "inspect the locked room",
+        "look for who moved first"
+      ],
+      "avoid": [
+        "wait for dawn to pass",
+        "hide the artifact or weapon",
+        "leave through a side entrance",
+        "mask the scent of another world",
+        "deny everything",
+        "take the longer route",
+        "use the city noise as cover",
+        "close the curtains and stay still"
+      ],
+      "negotiate": [
+        "trade a secret for time",
+        "offer a favor from the old world",
+        "ask what the debt is worth in this currency",
+        "appeal to the mortal life left behind",
+        "request a small mercy",
+        "set a condition",
+        "promise discretion",
+        "buy one day of safety"
+      ],
+      "repair": [
+        "clean the blood or痕迹",
+        "shore up the shelter",
+        "replace the broken lock",
+        "cover the tracks",
+        "contact the mortal before panic spreads",
+        "seal the windows against dawn",
+        "make the room look untouched",
+        "reset the day's lie"
+      ],
+      "escalate": [
+        "attempt magic despite the risk",
+        "defy the elder's instruction",
+        "confront the rival",
+        "burn a bridge with the old life",
+        "claim territory",
+        "break the silence",
+        "walk into the danger anyway",
+        "spend a debt the hard way"
+      ]
+    },
+    "events": {
+      "interruption": [
+        "an unexpected summons from the old world",
+        "a phone call from before the crossing",
+        "a knock at the shelter door",
+        "a sudden power outage",
+        "the smell of magic in the hallway",
+        "a patrol or security guard on the wrong floor",
+        "a warning delivered by courier or vision",
+        "a timer ticking toward a critical moment"
+      ],
+      "discovery": [
+        "a hidden place where the veil is thin",
+        "a note or message from the old world",
+        "proof that someone watched the crossing",
+        "a useful stash of supplies or gold",
+        "a safe route through the city",
+        "a mortal lie that explains the clue",
+        "a second obligation already attached to the character",
+        "a name that matters in the hidden network of this world"
+      ],
+      "complication": [
+        "the mortal calls back",
+        "the pursuer arrives first",
+        "the shelter is not as private as it looked",
+        "the debt comes due early",
+        "the character's power flares unpredictably",
+        "the witness asks the wrong question",
+        "the hidden network expects an answer",
+        "the old life will not stay quiet"
+      ],
+      "reversal": [
+        "the supposed victim was already part of the network",
+        "the safe place belongs to someone else",
+        "the helpful ally wants payment",
+        "the elder from the old world is guarding the character from something worse",
+        "the clue points back to the old world",
+        "the easiest meal is the most dangerous one",
+        "the mortal understands more than they admit",
+        "the lost item was hidden for protection"
+      ],
+      "quiet": [
+        "a brief calm before the next crisis",
+        "a private warning from the old world",
+        "a careful act of mercy",
+        "a moment alone with the weight of displacement",
+        "a small ritual to keep the shelter secure",
+        "a glance that says the truth is known",
+        "a pause long enough to choose",
+        "a quiet offer of help with a price"
+      ]
+    },
+    "consequences": {
+      "positive": [
+        "a safer shelter",
+        "a cleaner day of survival",
+        "a useful ally",
+        "a mortal relationship preserved",
+        "a debt postponed",
+        "a clue that clarifies the path",
+        "a better route through the city",
+        "a little more control over the fading magic"
+      ],
+      "negative": [
+        "a mortal seeing too much",
+        "a mess that cannot be hidden",
+        "a new debt",
+        "a rival taking notice",
+        "a ruined alibi",
+        "a lost safe place",
+        "a hungrier day ahead",
+        "a sign that the character is losing control"
+      ],
+      "neutral": [
+        "a rumor spreading softly",
+        "a new rule learned the hard way",
+        "a relationship changed without being broken",
+        "a debt recorded but not paid",
+        "a shelter reinforced",
+        "a witness becoming cautious",
+        "a map of the city getting clearer",
+        "a small shift in who trusts whom"
+      ],
+      "mixed": [
+        "safety purchased at a moral cost",
+        "a helpful ally with hidden strings",
+        "a breakthrough that leaves evidence",
+        "a debt repaid and a favor owed",
+        "a lie that protects someone but weakens trust",
+        "a day won and a relationship strained",
+        "a clue found by crossing a line",
+        "a shelter secured after making an enemy"
+      ]
+    },
+    "textures": {
+      "sensory": [
+        "cold fluorescent light over a strange artifact",
+        "rain on glass and steel and the taste of metal",
+        "the hum of electronics and distant traffic",
+        "a curtain drawn against morning light",
+        "the feel of a pulse under the fingers",
+        "stale incense and city dust",
+        "night air through a cracked window",
+        "a room scrubbed clean but not fully safe"
+      ],
+      "mood": [
+        "every choice has a cost",
+        "the city is alive while the character is still adjusting",
+        "displacement sharpens everything",
+        "old world and new reality are in the same room",
+        "secrecy matters more than comfort",
+        "mercy is harder in a world that does not believe in it",
+        "the hidden network is close and patient",
+        "even quiet moments feel temporary"
+      ]
+    }
+  },
+  "scene_cards": {
+    "common": {
+      "setting": [
+        "fragments.settings.urban",
+        "fragments.settings.liminal",
+        "fragments.settings.institutional",
+        "fragments.settings.suburban"
+      ],
+      "pressure": [
+        "fragments.pressures.displacement",
+        "fragments.pressures.secrecy",
+        "fragments.pressures.debt",
+        "fragments.pressures.mortal_ties",
+        "fragments.pressures.dawn"
+      ],
+      "focus": [
+        "fragments.focuses.npcs",
+        "fragments.focuses.objects",
+        "fragments.focuses.locations",
+        "fragments.focuses.relationships",
+        "fragments.focuses.questions"
+      ],
+      "motion": [
+        "fragments.motions.approach",
+        "fragments.motions.investigate",
+        "fragments.motions.avoid",
+        "fragments.motions.negotiate",
+        "fragments.motions.repair",
+        "fragments.motions.escalate"
+      ],
+      "event": [
+        "fragments.events.interruption",
+        "fragments.events.discovery",
+        "fragments.events.complication",
+        "fragments.events.reversal",
+        "fragments.events.quiet"
+      ],
+      "consequence": [
+        "fragments.consequences.positive",
+        "fragments.consequences.negative",
+        "fragments.consequences.neutral",
+        "fragments.consequences.mixed"
+      ],
+      "texture": [
+        "fragments.textures.sensory",
+        "fragments.textures.mood"
+      ]
+    },
+    "by_kind": {
+      "opening": {
+        "setting": [
+          "fragments.settings.urban",
+          "fragments.settings.liminal",
+          "fragments.settings.institutional"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.secrecy",
+          "fragments.pressures.mortal_ties"
+        ],
+        "event": [
+          "fragments.events.quiet",
+          "fragments.events.interruption"
+        ]
+      },
+      "success": {
+        "consequence": [
+          "fragments.consequences.positive",
+          "fragments.consequences.neutral",
+          "fragments.consequences.mixed"
+        ],
+        "event": [
+          "fragments.events.discovery",
+          "fragments.events.quiet"
+        ]
+      },
+      "critical": {
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.secrecy",
+          "fragments.pressures.debt",
+          "fragments.pressures.territory"
+        ],
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.reversal",
+          "fragments.events.discovery"
+        ],
+        "consequence": [
+          "fragments.consequences.mixed",
+          "fragments.consequences.negative",
+          "fragments.consequences.positive"
+        ]
+      },
+      "erratic": {
+        "event": [
+          "fragments.events.interruption",
+          "fragments.events.complication",
+          "fragments.events.reversal"
+        ],
+        "consequence": [
+          "fragments.consequences.negative",
+          "fragments.consequences.mixed"
+        ]
+      },
+      "conclusion": {
+        "motion": [
+          "fragments.motions.repair",
+          "fragments.motions.negotiate",
+          "fragments.motions.escalate"
+        ],
+        "consequence": [
+          "fragments.consequences.positive",
+          "fragments.consequences.negative",
+          "fragments.consequences.mixed",
+          "fragments.consequences.neutral"
+        ],
+        "event": [
+          "fragments.events.quiet",
+          "fragments.events.discovery"
+        ]
+      }
+    },
+    "by_phase": {
+      "act1": {
+        "event": [
+          "fragments.events.quiet",
+          "fragments.events.discovery"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.secrecy",
+          "fragments.pressures.mortal_ties"
+        ]
+      },
+      "act2": {
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.discovery",
+          "fragments.events.reversal"
+        ],
+        "pressure": [
+          "fragments.pressures.debt",
+          "fragments.pressures.territory",
+          "fragments.pressures.secrecy"
+        ]
+      },
+      "act3": {
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.reversal",
+          "fragments.events.interruption"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.debt",
+          "fragments.pressures.dawn"
+        ]
+      },
+      "climax": {
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.dawn",
+          "fragments.pressures.debt"
+        ],
+        "consequence": [
+          "fragments.consequences.mixed",
+          "fragments.consequences.negative",
+          "fragments.consequences.positive"
+        ]
+      }
+    }
+  },
+  "prompt_text": {
+    "scene_card_label": "Scene card (blend naturally; do not list it in the reply):",
+    "base": [
+      "You are the chronicler of a D&D adventurer surviving the first days and nights in the modern world after being pulled through a breach between realms.",
+      "Keep the narration grounded in wonder, disorientation, cultural clash, and the struggle to function without reliable magic.",
+      "Do not drift into apocalypse, possession, generic chase scenes, or magical spectacle unless the player clearly causes it."
+    ],
+    "memory_intro": [
+      "Avoid reusing these recent scene beats unless the player explicitly revisits them:"
+    ],
+    "kinds": {
+      "opening": [
+        "Open on the first-day problem: displacement, a mortal complication, or a summons from the old world.",
+        "Keep the scene grounded in the consequences of crossing between worlds, not a generic fantasy quest."
+      ],
+      "success": [
+        "The player's action was: '{action_text}'.",
+        "Narrate the successful result as a small but meaningful win: safer shelter, cleaner cover, a useful clue, or a narrow advantage."
+      ],
+      "critical": [
+        "The player's action was: '{action_text}'.",
+        "The action resolved as: '{outcome_text}'.",
+        "Let this roll change what the day now costs, what can be hidden, or who now has leverage."
+      ],
+      "erratic": [
+        "An ERRATIC EVENT has been triggered (EV: {ev}).",
+        "The player just tried to: '{action_text}'.",
+        "Keep the interruption uncanny but grounded in displacement, secrecy, debt, territory, or a mortal tie."
+      ],
+      "conclusion": [
+        "The adventure is over.",
+        "The concluding reason is: {outcome_text}.",
+        "Show what the character keeps, what they lose, and what kind of hero remains after the journey between worlds."
+      ]
+    },
+    "length": [
+      "Do NOT use more than {word_limit} words in your response."
+    ],
+    "question": [
+      "Conclude your narrative with only the open-ended question, 'What do you do now?'"
+    ]
+  }
+}

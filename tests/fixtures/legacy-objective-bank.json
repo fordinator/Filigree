@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "metadata": {"name": "The Locked Crossing — authored tracker example"},
+  "story": {
+    "style": "A grounded local problem. Invent suitable people and a setting without raising the stakes beyond the crossing.",
+    "turn_budget": {"min": 12, "max": 20},
+    "manual_compass": {
+      "premise": "A traveler must recover a missing passage token and cross a closed local crossing.",
+      "pressure": "The crossing keeper has a practical reason for closing access; negotiation, retrieval, and alternative approaches remain possible.",
+      "anchors": ["The passage token", "The keeper", "The crossing"],
+      "movements": ["Establish the obstruction", "Act on information and consequences", "Settle passage and its cost"],
+      "possible_ending": "The traveler reaches the other side, or passage becomes definitively impossible.",
+      "target_turns": 16
+    }
+  },
+  "objective_tracker": {
+    "name": "Reach the other side",
+    "mode": "authored",
+    "instructions": "These are goals, not a mandatory route. The traveler can negotiate, retrieve the token, earn another permission, or find a plausible alternative. Do not demand every optional milestone. No new conspiracy or cosmic threat. A failed check is only definitive failure when it truly closes all remaining routes.",
+    "objectives": [
+      {"id": "learn_obstruction", "title": "Understand why passage was stopped", "success": "The traveler learns the keeper's actual practical objection.", "failure": "The reason can no longer be discovered in this adventure.", "required": false},
+      {"id": "recover_token", "title": "Recover the passage token", "success": "The traveler possesses the missing token.", "failure": "The token is irretrievably lost or destroyed.", "required": false},
+      {"id": "cross", "title": "Reach the other side", "success": "The traveler has crossed and can continue onward independently.", "failure": "Every plausible route across is definitively lost, or the traveler knowingly abandons the goal.", "required": true}
+    ]
+  },
+  "scene_cues": {"situations": ["A closed crossing with a practical obstruction."], "details": ["An everyday object shows signs of use."]}
+}

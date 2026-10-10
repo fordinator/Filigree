@@ -1,0 +1,7505 @@
+{
+  "sourceSha256": "4d77bcdc056ff87d39b3629051feb4c1d161b688431e14876179e2f975ac0e68",
+  "cases": [
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 60,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 60,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 60,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 60,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 30,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 30,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 30,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 30,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 12,
+        "turns": 1,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 12,
+        "turns": 4,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 12,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 12,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 12,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 12,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 30,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 30,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 30,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 30,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 30,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 30,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 60,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 60,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 60,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 60,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 60,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 12,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 0,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 12,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 64,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 64,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 64,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 64,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 34,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 34,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 34,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 34,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 16,
+        "turns": 1,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 16,
+        "turns": 4,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 16,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 16,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 16,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 16,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 34,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 34,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 34,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 34,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 34,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 34,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 64,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 64,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 64,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 64,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 64,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 16,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 4,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 16,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 85,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 85,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 85,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 85,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 55,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 55,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 55,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 55,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 37,
+        "turns": 1,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 37,
+        "turns": 4,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 37,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 37,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 55,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 55,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 55,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 55,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 55,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 85,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 85,
+        "turns": 1,
+        "roll": 100,
+        "threshold": 85,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 85,
+        "turns": 4,
+        "roll": 100,
+        "threshold": 85,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 37,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 25,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 37,
+        "triggered": false,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 90,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": -3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 0,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 3,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": false,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": false
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 1,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 1,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 12,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 12,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 25,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 25,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 50,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 50,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 0,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    },
+    {
+      "chance": 100,
+      "turns": 3,
+      "margin": 20,
+      "critical": true,
+      "roll": 100,
+      "expected": {
+        "chance": 0,
+        "turns": 0,
+        "roll": 100,
+        "threshold": 100,
+        "triggered": true,
+        "suppressed": true
+      }
+    }
+  ]
+}

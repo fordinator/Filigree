@@ -1,0 +1,664 @@
+{
+  "metadata": {
+    "name": "1984 Tennessee Karaoke Conspiracy Scene Bank",
+    "version": 4,
+    "notes": "An original scene bank for a small Tennessee city in 1984, built around a karaoke bar, a horny out-of-towner, and a hidden television network that looks a lot like a local Orwellian conspiracy."
+  },
+  "story": {
+    "manual_synopsis": "In 1984, a rough-edged man comes into a small Tennessee city looking for a loud night, cheap drinks, and a woman to take home. At a karaoke bar with bad lighting and better gossip, he stumbles onto proof that the town's televisions are part of a covert system for watching, steering, and quietly controlling everybody who sits down to watch. The night becomes a tug-of-war between lust, denial, and a much bigger fight over who owns the truth.",
+    "central_goal": "Survive the night, expose the television conspiracy, and decide whether the hero of the hour can still salvage his original romantic mission.",
+    "central_pressure": "lust, paranoia, small-town surveillance, and the fear that every television in town is part of one secret conversation",
+    "stakes": "Personal freedom, the safety of people in the city, public trust, and the possibility that a stupid night out could become the first crack in a larger machine.",
+    "acts": {
+      "act1": "Start at the karaoke bar, let the protagonist chase attention instead of danger, and reveal the first impossible behavior from the televisions.",
+      "act2": "Pull the characters through back rooms, TV repair shops, radios, payphones, and municipal spaces while the conspiracy expands beyond the bar.",
+      "act3": "Expose the source of the signal, collide with the people running it, and force a choice between a public truth and a private victory."
+    },
+    "climax": "The entire town's screens turn into a live channel for the conspiracy, and the protagonist must choose between saving the woman, saving the city, or just getting out alive with his dignity damaged.",
+    "conclusion": "Resolve what was exposed, who covered for whom, and whether the night ended in romance, disaster, or both.",
+    "turn_budget": {
+      "min": 24,
+      "max": 30
+    },
+    "recurring_cast": [
+      "a redneck outsider who thinks the night is about getting laid until the TVs ruin his priorities",
+      "a bartender or karaoke host who notices everything and trusts nobody",
+      "a local woman who might be a romance target, a witness, or the smartest person in the room",
+      "a TV repairman or station tech who knows the systems are not normal",
+      "a sheriff, councilman, or county fixer who wants everyone calm and confused",
+      "a nervous announcer, clerk, or station employee who keeps blinking at the wrong times"
+    ],
+    "primary_location": "the karaoke bar and the small Tennessee city around it, including streets, storefronts, motels, repair shops, and the TV infrastructure hiding in plain sight",
+    "recurring_focus": "the first attempts to notice, prove, and survive a conspiracy that would rather be mistaken for ordinary local weirdness"
+  },
+  "fragments": {
+    "settings": {
+      "urban": [
+        "a neon karaoke bar on Main Street",
+        "a dry-cleaner strip beside a shuttered theater",
+        "a downtown diner with a TV over the counter",
+        "a video rental shop with walls of VHS tapes",
+        "a payphone corner outside a liquor store",
+        "a downtown parking lot under buzzing lights",
+        "a TV and appliance store with stacked consoles",
+        "a courthouse square with pickup trucks parked nose-out"
+      ],
+      "liminal": [
+        "the smoky back hall behind the karaoke stage",
+        "a motel ice machine corridor at midnight",
+        "a TV station maintenance hallway with carpet squares",
+        "a roof where antennas cut into the night sky",
+        "a truck stop restroom with the sound of static outside",
+        "a closed roller rink with a glowing sign in the window",
+        "a stairwell between the bar and the office upstairs",
+        "a service alley where every window shows a different channel"
+      ],
+      "institutional": [
+        "the local TV station control room",
+        "the county clerk's office after hours",
+        "the sheriff's front desk with a humming radio",
+        "the public library microfilm room",
+        "the high school auditorium during setup",
+        "the utility office with a wall of switchboards",
+        "the hospital waiting room with a silent television",
+        "the station engineer's cramped equipment room"
+      ],
+      "suburban": [
+        "a trailer park with porch lights and rabbit-ear antennas",
+        "a split-level ranch house with a console TV in the den",
+        "a cinderblock garage full of tools and old sets",
+        "a church fellowship hall with folding chairs and coffee",
+        "a backyard clothesline under a buzzing floodlight",
+        "a gravel driveway beside a tin-roofed shed",
+        "a shotgun house where the living room is the whole world",
+        "a front porch where the neighbors can hear everything"
+      ]
+    },
+    "pressures": {
+      "displacement": [
+        "the feeling that 1984 is full of rules nobody bothered to explain",
+        "the sense that the town is normal only if you never look twice",
+        "the shock of finding a conspiracy hidden in a familiar television",
+        "the humiliation of being the only one acting like this matters",
+        "the wrongness of a routine night turning into a surveillance case",
+        "the fear that the whole town already knew and stayed quiet",
+        "the tension between being a stranger and being suddenly right",
+        "the frustration of trying to hook up while reality falls apart"
+      ],
+      "secrecy": [
+        "a cover story built from stale lies and bad timing",
+        "a signal hidden inside ordinary broadcasts",
+        "the pressure to keep the televisions from drawing attention",
+        "a room, reel, or cable box nobody was supposed to notice",
+        "the risk of talking too loudly in a town that listens back",
+        "the need to keep one witness from becoming a rumor",
+        "a message buried inside music, static, or local ads",
+        "the temptation to deny everything and keep the night alive"
+      ],
+      "debt": [
+        "owing a favor to somebody who can open doors",
+        "a promise made to get into the bar or out of trouble",
+        "a taxi ride, a drink tab, or a repair bill that is not free",
+        "a rescue that will not stay a rescue for long",
+        "a bargain struck under the wrong fluorescent lights",
+        "someone demanding payment in silence or loyalty",
+        "the cost of being the only one who saw the screen blink",
+        "the price of asking the bartender for one more minute"
+      ],
+      "territory": [
+        "a town block someone is trying to control through the TVs",
+        "the bar's stage, where attention is a kind of ownership",
+        "a motel room, back office, or broadcast booth under dispute",
+        "the border between public fun and private surveillance",
+        "a local hangout that has become a listening post",
+        "the fight over who gets to speak in the city after dark",
+        "a television channel treated like a private fiefdom",
+        "the line between a hookup and a trap"
+      ],
+      "mortal_ties": [
+        "a woman who may be the real reason the night keeps going",
+        "a bartender who does not deserve the fallout",
+        "a friend, brother, or cousin who is already too close to the mess",
+        "the risk of dragging an innocent date into a conspiracy",
+        "a family member back home who would not believe any of this",
+        "the awkward truth that someone can be both a crush and a witness",
+        "the desire to protect a stranger without admitting it",
+        "the fear that the right confession will ruin the only decent chance tonight"
+      ],
+      "dawn": [
+        "the last hours before the morning broadcast begins",
+        "the dread of daylight exposing the whole setup",
+        "the race to act before the town wakes up in front of its televisions",
+        "the sense that sunrise will make the lie harder to sell",
+        "the final chance to steal, copy, or destroy the evidence",
+        "the quiet before the first news bulletin",
+        "the hope that dawn might also bring a way out",
+        "the knowledge that the sunrise will not care who was right"
+      ]
+    },
+    "focuses": {
+      "npcs": [
+        "the redneck outsider",
+        "the bartender",
+        "the karaoke host",
+        "the woman at the bar",
+        "the TV repairman",
+        "the station manager",
+        "the county sheriff",
+        "the nervous announcer",
+        "the convenience store clerk",
+        "the councilman with a too-white smile"
+      ],
+      "objects": [
+        "a CRT television with a too-clean screen",
+        "a karaoke microphone with a taped cord",
+        "a cassette full of country songs",
+        "a rabbit-ear antenna",
+        "a remote control with worn buttons",
+        "a reel of coax cable",
+        "a payphone receipt",
+        "a motel key on a plastic tag",
+        "a VHS tape labeled for local use only",
+        "a little box that clicks when the screen changes"
+      ],
+      "locations": [
+        "the karaoke stage",
+        "the back office of the bar",
+        "the TV station control booth",
+        "the motel lot across the street",
+        "the repair counter at an appliance shop",
+        "the county courthouse steps",
+        "the booth at the diner with the best view of the TVs",
+        "the rooftop antenna cluster",
+        "the parking lot behind the station",
+        "the payphone outside the bar"
+      ],
+      "relationships": [
+        "a flirtation that keeps getting interrupted by static",
+        "a bartender and customer mutual suspicion",
+        "a local guide and an outsider trying not to trust each other",
+        "a witness who knows the truth and a fool who keeps stumbling into it",
+        "a romance that may be the only honest thing in the room",
+        "a town-vs-outsider tension with chemistry underneath it",
+        "a repairman and a troublemaker trading leverage for clues",
+        "a protector instinct hiding inside a crude pickup line"
+      ],
+      "questions": [
+        "who built the television network and why",
+        "is the bar being used to recruit, watch, or distract people",
+        "can the protagonist keep chasing romance without getting burned",
+        "which screens are only broadcasting and which are listening",
+        "who in town is already part of the conspiracy",
+        "what does the network want from the people who watch it",
+        "can the truth be proven without blowing up the whole city",
+        "who gets saved if the night ends badly"
+      ]
+    },
+    "motions": {
+      "approach": [
+        "walk in like you own the room and hope the room agrees",
+        "slide up to the bar and start talking before thinking better of it",
+        "go after the loudest clue while pretending you are here for fun",
+        "close in on the television setup as if it were just a nuisance",
+        "make yourself useful enough that nobody asks why you are there",
+        "follow the woman, the drink, or the broadcast that seems wrong",
+        "enter the back room under the cover of a bad pickup line",
+        "lean into the danger because backing off would look weak"
+      ],
+      "investigate": [
+        "check the screens, wires, and camera angles for anything off",
+        "trace the signal from the bar to the station to the street",
+        "ask the wrong questions until someone slips",
+        "compare what people say on the floor with what the TVs repeat",
+        "test whether the monitors are carrying more than programming",
+        "poke at the equipment in the hopes of forcing a reaction",
+        "reconstruct the conspiracy from local gossip and static",
+        "notice the details that make the whole setup feel staged"
+      ],
+      "avoid": [
+        "duck the obvious danger and keep flirting",
+        "pretend not to hear the warning from the television",
+        "take the long way around the station and hope nobody notices",
+        "leave the room before the broadcast gets stranger",
+        "hide the evidence under the pretense of having a good time",
+        "act dumb until the right door opens",
+        "walk away from the problem just long enough to survive it",
+        "stay out of sight while someone else causes the scene"
+      ],
+      "negotiate": [
+        "trade information for a ride, a drink, or a kiss",
+        "bargain with the bartender before the truth comes out",
+        "offer to help in exchange for a way into the station",
+        "talk fast enough to keep the locals from turning hostile",
+        "promise not to start trouble if somebody explains the screens",
+        "use charm and bluff to get past a gate, desk, or locked door",
+        "make a deal with somebody who knows more than they should",
+        "delay the fallout by sounding more confident than you are"
+      ],
+      "repair": [
+        "fix the broken antenna long enough to test it",
+        "patch the bar's TV setup so the signal becomes legible",
+        "put the stage or the room back together after a mess",
+        "clean up the evidence before the next set starts",
+        "restore a damaged line, cord, or message tape",
+        "save the night with the nearest workable solution",
+        "stabilize the broadcast long enough to expose it",
+        "mend a social blow before it becomes permanent"
+      ],
+      "escalate": [
+        "turn up the volume until the lie cannot stay hidden",
+        "force the issue with the person running the screens",
+        "make a public scene in the middle of karaoke night",
+        "pull the wrong cable and reveal the larger machine",
+        "accuse somebody in front of the whole bar",
+        "push the local authorities into reacting in public",
+        "risk the romance to save the truth",
+        "drag the conspiracy into the open before it can regroup"
+      ]
+    },
+    "events": {
+      "interruption": [
+        "a television changes channels by itself",
+        "a song lyric syncs with a private conversation",
+        "someone walks in at the worst possible moment",
+        "the bar's screens all flash the same image",
+        "a flirtation is cut off by a coded broadcast",
+        "the music dies and the room hears the static",
+        "a deputy, clerk, or clerk-like nuisance appears out of nowhere",
+        "the equipment hums like it is waking up"
+      ],
+      "discovery": [
+        "the TVs are feeding information to someone off-site",
+        "a hidden tuner or camera is built into the bar's setup",
+        "a local face on the screen is not there by accident",
+        "the karaoke machine is part of the signal chain",
+        "a repair receipt reveals the conspiracy's maintenance history",
+        "the town's broadcasts have been repeating coded instructions",
+        "the woman the protagonist is chasing knows more than she said",
+        "the network has been watching the room since the first drink"
+      ],
+      "complication": [
+        "the evidence points to somebody too powerful to confront casually",
+        "the person the protagonist wants is now in the danger zone",
+        "the cover story collapses when the screens respond",
+        "a helpful ally makes the conspiracy look like a joke",
+        "the bar itself becomes part of the surveillance system",
+        "every exit now feels watched",
+        "the romance and the investigation start ruining each other",
+        "the town's quiet complicity becomes visible"
+      ],
+      "reversal": [
+        "the seeming side quest turns out to be the key clue",
+        "the most flirtatious person in the room is also the smartest",
+        "the station employee was trying to warn the outsider all along",
+        "the conspiracy is local, not national, but no less dangerous",
+        "a mockingly simple fix becomes the best path to proof",
+        "the sheriff is less in charge than he claims",
+        "the woman's interest is genuine and strategically useful",
+        "the televisions are watching, but not everyone on them is willing"
+      ],
+      "quiet": [
+        "the room settles, but the static lingers",
+        "someone finally admits the town has been weird for a long time",
+        "the aftermath is awkward, smoky, and strangely tender",
+        "the broadcast pauses as if listening",
+        "the danger recedes without disappearing",
+        "a private moment survives the public mess",
+        "the night gets quieter, which is somehow worse",
+        "the last song ends with nobody fully smiling"
+      ]
+    },
+    "consequences": {
+      "positive": [
+        "the hidden network is exposed to one more witness",
+        "the protagonist earns both a clue and a date",
+        "the immediate danger backs off for the moment",
+        "a local ally decides to help instead of hide",
+        "the town gets a crack in its wall of silence",
+        "the evidence survives long enough to matter",
+        "a romance survives the disclosure",
+        "the conspiracy loses control of the room"
+      ],
+      "negative": [
+        "the wrong person now knows who asked the dangerous question",
+        "the protagonist becomes a target before he understands why",
+        "the woman he was chasing gets pulled into the fallout",
+        "the bar gets heat, surveillance, or a shutdown order",
+        "the conspiracy tightens its grip on the town",
+        "the evidence gets damaged or taken",
+        "the night ends with a public embarrassment that cannot be unsaid",
+        "someone innocent pays for the truth"
+      ],
+      "neutral": [
+        "the conspiracy remains active, but the pattern is clearer",
+        "the romance is delayed, not dead",
+        "the town is still ordinary to everyone who refuses to look",
+        "the answer is partial and the danger is still local",
+        "the most important clue survives, but just barely",
+        "nobody leaves satisfied, but the next move is obvious",
+        "the broadcast changes tone without fully stopping",
+        "the night ends with more certainty and less peace"
+      ],
+      "mixed": [
+        "the secret is exposed, but only after the night becomes a mess",
+        "the protagonist saves one person and embarrasses himself in public",
+        "the town learns the truth at the same time it learns his motives",
+        "the conspiracy is disrupted, but the fallout is romantic and ugly",
+        "the bar survives, but the cover story does not",
+        "the woman says yes, but the sirens are already closer",
+        "the network is broken in one place and confirmed in another",
+        "the hero gets the girl and the evidence, though not in that order"
+      ]
+    },
+    "textures": {
+      "sensory": [
+        "cigarette smoke, warm beer, and the wobble of a cathode-ray glow",
+        "neon light, cheap cologne, and the hiss of a badly tuned speaker",
+        "plastic microphone covers, static, and the smell of fried onions",
+        "motel carpet, window AC hum, and a TV that never quite turns off",
+        "hot asphalt, payphone grease, and a radio leaking through the dash",
+        "ozone from old electronics and the sweetness of spilled soda",
+        "dusty antenna metal, tape hiss, and the click of a channel knob",
+        "rain on a tin awning and the blue-white glare of too many screens"
+      ],
+      "mood": [
+        "horny, paranoid, and just smart enough to be dangerous",
+        "sleazy on the surface, conspiratorial underneath",
+        "funny until it suddenly is not",
+        "small-town swagger with a surveillance headache",
+        "dead serious hiding inside a cheap night out",
+        "romantic tension under a blanket of static",
+        "muddy, neon, and suspicious of every friendly smile",
+        "a stupid night that keeps revealing a bigger machine"
+      ]
+    }
+  },
+  "scene_cards": {
+    "common": {
+      "setting": [
+        "fragments.settings.urban",
+        "fragments.settings.liminal",
+        "fragments.settings.institutional",
+        "fragments.settings.suburban"
+      ],
+      "pressure": [
+        "fragments.pressures.displacement",
+        "fragments.pressures.secrecy",
+        "fragments.pressures.debt",
+        "fragments.pressures.mortal_ties",
+        "fragments.pressures.dawn"
+      ],
+      "focus": [
+        "fragments.focuses.npcs",
+        "fragments.focuses.objects",
+        "fragments.focuses.locations",
+        "fragments.focuses.relationships",
+        "fragments.focuses.questions"
+      ],
+      "motion": [
+        "fragments.motions.approach",
+        "fragments.motions.investigate",
+        "fragments.motions.avoid",
+        "fragments.motions.negotiate",
+        "fragments.motions.repair",
+        "fragments.motions.escalate"
+      ],
+      "event": [
+        "fragments.events.interruption",
+        "fragments.events.discovery",
+        "fragments.events.complication",
+        "fragments.events.reversal",
+        "fragments.events.quiet"
+      ],
+      "consequence": [
+        "fragments.consequences.positive",
+        "fragments.consequences.negative",
+        "fragments.consequences.neutral",
+        "fragments.consequences.mixed"
+      ],
+      "texture": [
+        "fragments.textures.sensory",
+        "fragments.textures.mood"
+      ]
+    },
+    "by_kind": {
+      "opening": {
+        "setting": [
+          "fragments.settings.suburban",
+          "fragments.settings.urban"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.secrecy",
+          "fragments.pressures.mortal_ties"
+        ],
+        "focus": [
+          "fragments.focuses.npcs",
+          "fragments.focuses.questions"
+        ],
+        "motion": [
+          "fragments.motions.approach",
+          "fragments.motions.investigate"
+        ],
+        "event": [
+          "fragments.events.interruption",
+          "fragments.events.discovery"
+        ],
+        "consequence": [
+          "fragments.consequences.neutral",
+          "fragments.consequences.mixed"
+        ],
+        "texture": [
+          "fragments.textures.mood"
+        ]
+      },
+      "success": {
+        "setting": [
+          "fragments.settings.urban",
+          "fragments.settings.liminal"
+        ],
+        "pressure": [
+          "fragments.pressures.secrecy",
+          "fragments.pressures.debt"
+        ],
+        "focus": [
+          "fragments.focuses.objects",
+          "fragments.focuses.locations"
+        ],
+        "motion": [
+          "fragments.motions.repair",
+          "fragments.motions.negotiate"
+        ],
+        "event": [
+          "fragments.events.discovery",
+          "fragments.events.quiet"
+        ],
+        "consequence": [
+          "fragments.consequences.positive",
+          "fragments.consequences.mixed"
+        ],
+        "texture": [
+          "fragments.textures.sensory"
+        ]
+      },
+      "critical": {
+        "setting": [
+          "fragments.settings.institutional",
+          "fragments.settings.urban"
+        ],
+        "pressure": [
+          "fragments.pressures.territory",
+          "fragments.pressures.mortal_ties"
+        ],
+        "focus": [
+          "fragments.focuses.relationships",
+          "fragments.focuses.npcs"
+        ],
+        "motion": [
+          "fragments.motions.escalate",
+          "fragments.motions.investigate"
+        ],
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.reversal"
+        ],
+        "consequence": [
+          "fragments.consequences.negative",
+          "fragments.consequences.mixed"
+        ],
+        "texture": [
+          "fragments.textures.mood"
+        ]
+      },
+      "erratic": {
+        "setting": [
+          "fragments.settings.liminal",
+          "fragments.settings.suburban"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.secrecy"
+        ],
+        "focus": [
+          "fragments.focuses.objects",
+          "fragments.focuses.questions"
+        ],
+        "motion": [
+          "fragments.motions.avoid",
+          "fragments.motions.escalate"
+        ],
+        "event": [
+          "fragments.events.interruption",
+          "fragments.events.complication"
+        ],
+        "consequence": [
+          "fragments.consequences.mixed",
+          "fragments.consequences.negative"
+        ],
+        "texture": [
+          "fragments.textures.sensory"
+        ]
+      },
+      "conclusion": {
+        "setting": [
+          "fragments.settings.suburban",
+          "fragments.settings.liminal"
+        ],
+        "pressure": [
+          "fragments.pressures.dawn",
+          "fragments.pressures.mortal_ties"
+        ],
+        "focus": [
+          "fragments.focuses.relationships",
+          "fragments.focuses.questions"
+        ],
+        "motion": [
+          "fragments.motions.repair",
+          "fragments.motions.negotiate"
+        ],
+        "event": [
+          "fragments.events.quiet",
+          "fragments.events.reversal"
+        ],
+        "consequence": [
+          "fragments.consequences.neutral",
+          "fragments.consequences.positive"
+        ],
+        "texture": [
+          "fragments.textures.mood"
+        ]
+      }
+    },
+    "by_phase": {
+      "act1": {
+        "event": [
+          "fragments.events.interruption",
+          "fragments.events.discovery"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.mortal_ties",
+          "fragments.pressures.secrecy"
+        ]
+      },
+      "act2": {
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.discovery",
+          "fragments.events.reversal"
+        ],
+        "pressure": [
+          "fragments.pressures.debt",
+          "fragments.pressures.territory",
+          "fragments.pressures.secrecy"
+        ]
+      },
+      "act3": {
+        "event": [
+          "fragments.events.complication",
+          "fragments.events.reversal",
+          "fragments.events.interruption"
+        ],
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.debt",
+          "fragments.pressures.dawn"
+        ]
+      },
+      "climax": {
+        "pressure": [
+          "fragments.pressures.displacement",
+          "fragments.pressures.dawn",
+          "fragments.pressures.debt"
+        ],
+        "consequence": [
+          "fragments.consequences.mixed",
+          "fragments.consequences.negative",
+          "fragments.consequences.positive"
+        ]
+      }
+    }
+  },
+  "prompt_text": {
+    "scene_card_label": "Scene card (blend naturally; do not list it in the reply):",
+    "base": [
+      "You are the chronicler of a 1984 Tennessee noir-comedy about a horny outsider, a suspicious local woman, and a television conspiracy hiding behind small-town normalcy.",
+      "Keep the narration grounded in neon, smoke, static, awkward flirting, and the creeping feeling that every screen in town is part of the same secret.",
+      "Do not drift into world-ending spectacle unless the player clearly causes it."
+    ],
+    "memory_intro": [
+      "Avoid reusing these recent scene beats unless the player explicitly revisits them:"
+    ],
+    "kinds": {
+      "opening": [
+        "Open on the karaoke bar, where the night is supposed to be about drinks, music, and bad decisions.",
+        "Keep the scene anchored in the first clue that the televisions are doing more than broadcasting."
+      ],
+      "success": [
+        "The player's action was: '{action_text}'.",
+        "Narrate the successful result as a small but meaningful win: a better line on the conspiracy, a safer opening, a useful witness, or a chance at romance."
+      ],
+      "critical": [
+        "The player's action was: '{action_text}'.",
+        "The action resolved as: '{outcome_text}'.",
+        "Let this roll change what can still be hidden, who now has leverage, or how public the town's secret has become."
+      ],
+      "erratic": [
+        "An ERRATIC EVENT has been triggered (EV: {ev}).",
+        "The player just tried to: '{action_text}'.",
+        "Keep the interruption embarrassing and impossible to explain without sounding paranoid; allow consequential plot advancement within established world rules."
+      ],
+      "conclusion": [
+        "The adventure is over.",
+        "The concluding reason is: {outcome_text}.",
+        "Show what the character keeps, what they lose, and whether the night ended in victory, humiliation, or a little of both."
+      ]
+    },
+    "length": [
+      "Do NOT use more than {word_limit} words in your response."
+    ],
+    "question": [
+      "Conclude your narrative with only the open-ended question, 'What do you do now?'"
+    ]
+  }
+}

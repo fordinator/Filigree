@@ -1,0 +1,15 @@
+:root {
+ --dm-space-1: .25rem; --dm-space-2: .5rem; --dm-space-3: .75rem; --dm-space-4: 1rem;
+ --dm-radius: .5rem; --dm-border: 1px; --dm-focus: 2px; --dm-control: 2.5rem;
+ --dm-dialog-width: 56rem; --dm-dialog-height: 90dvh; --dm-reading: 72ch;
+ --dm-small: .85rem; --dm-body: 1rem; --dm-title: 1.4rem; --dm-font: system-ui, sans-serif;
+ --dm-bg-fallback: #f6f3ec; --dm-text-fallback: #24231f; --dm-border-fallback: #68645a;
+ --dm-danger: #9b1c1c; --dm-focus-color: #17568b; --dm-overlay: #0008;
+ --dm-surface: var(--SmartThemeBlurTintColor, var(--dm-bg-fallback));
+ --dm-text: var(--SmartThemeBodyColor, var(--dm-text-fallback));
+ --dm-line: var(--SmartThemeBorderColor, var(--dm-border-fallback));
+ --dm-muted-opacity: .65; --dm-preview-height: 14rem;
+}
+@media (prefers-color-scheme: dark) {
+ :root { --dm-bg-fallback: #1e211f; --dm-text-fallback: #eeeee5; --dm-border-fallback: #949b94; --dm-danger: #ffadad; --dm-focus-color: #acd5ff; }
+}

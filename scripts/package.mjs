@@ -1,0 +1,14 @@
+import {mkdir,mkdtemp,readFile,writeFile} from 'node:fs/promises';
+import {join} from 'node:path';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import {root,install} from './assets.mjs';
+await mkdir(join(root,'dist'),{recursive:true});
+const output=await mkdtemp(join(root,'dist','release-'));
+await install(join(output,'Filigree'));
+const manifest=JSON.parse(await readFile(join(root,'manifest.json'),'utf8'));
+const filename='Filigree-'+manifest.version+'.zip';
+execFileSync('zip',['-qr',filename,'Filigree'],{cwd:output});
+const hash=createHash('sha256').update(await readFile(join(output,filename))).digest('hex');
+await writeFile(join(output,'SHA256SUMS'),hash+'  '+filename+'\n');
+console.log(join(output,filename));console.log(hash);

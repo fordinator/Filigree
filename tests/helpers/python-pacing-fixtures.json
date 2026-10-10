@@ -1,0 +1,9091 @@
+[
+  {
+    "current": -30,
+    "prior": [],
+    "expected": {
+      "current": -30,
+      "average": 0.0,
+      "determining": -15.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -30,
+      "average": 0.0,
+      "determining": -15.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -30,
+      "average": 1.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -30,
+      "average": -1.0,
+      "determining": -15.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -30,
+      "average": 9.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -30,
+      "average": -9.0,
+      "determining": -19.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -30,
+      "average": -4.0,
+      "determining": -17.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -30,
+      "average": 8.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -30,
+      "average": -1.6666666666666667,
+      "determining": -15.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -30,
+      "average": 1.5,
+      "determining": -14.25,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -30,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -30,
+      "average": 0.3333333333333333,
+      "determining": -14.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [],
+    "expected": {
+      "current": -29,
+      "average": 0.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -29,
+      "average": 0.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -29,
+      "average": 1.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -29,
+      "average": -1.0,
+      "determining": -15.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -29,
+      "average": 9.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -29,
+      "average": -9.0,
+      "determining": -19.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -29,
+      "average": -4.0,
+      "determining": -16.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -29,
+      "average": 8.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -29,
+      "average": -1.6666666666666667,
+      "determining": -15.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -29,
+      "average": 1.5,
+      "determining": -13.75,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -29,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -29,
+      "average": 0.3333333333333333,
+      "determining": -14.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [],
+    "expected": {
+      "current": -28,
+      "average": 0.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -28,
+      "average": 0.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -28,
+      "average": 1.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -28,
+      "average": -1.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -28,
+      "average": 9.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -28,
+      "average": -9.0,
+      "determining": -18.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -28,
+      "average": -4.0,
+      "determining": -16.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -28,
+      "average": 8.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -28,
+      "average": -1.6666666666666667,
+      "determining": -14.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -28,
+      "average": 1.5,
+      "determining": -13.25,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -28,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -28,
+      "average": 0.3333333333333333,
+      "determining": -13.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [],
+    "expected": {
+      "current": -27,
+      "average": 0.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -27,
+      "average": 0.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -27,
+      "average": 1.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -27,
+      "average": -1.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -27,
+      "average": 9.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -27,
+      "average": -9.0,
+      "determining": -18.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -27,
+      "average": -4.0,
+      "determining": -15.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -27,
+      "average": 8.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -27,
+      "average": -1.6666666666666667,
+      "determining": -14.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -27,
+      "average": 1.5,
+      "determining": -12.75,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -27,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -27,
+      "average": 0.3333333333333333,
+      "determining": -13.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [],
+    "expected": {
+      "current": -26,
+      "average": 0.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -26,
+      "average": 0.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -26,
+      "average": 1.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -26,
+      "average": -1.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -26,
+      "average": 9.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -26,
+      "average": -9.0,
+      "determining": -17.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -26,
+      "average": -4.0,
+      "determining": -15.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -26,
+      "average": 8.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -26,
+      "average": -1.6666666666666667,
+      "determining": -13.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -26,
+      "average": 1.5,
+      "determining": -12.25,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -26,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -26,
+      "average": 0.3333333333333333,
+      "determining": -12.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [],
+    "expected": {
+      "current": -25,
+      "average": 0.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -25,
+      "average": 0.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -25,
+      "average": 1.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -25,
+      "average": -1.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -25,
+      "average": 9.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -25,
+      "average": -9.0,
+      "determining": -17.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -25,
+      "average": -4.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -25,
+      "average": 8.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -25,
+      "average": -1.6666666666666667,
+      "determining": -13.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -25,
+      "average": 1.5,
+      "determining": -11.75,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -25,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -25,
+      "average": 0.3333333333333333,
+      "determining": -12.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [],
+    "expected": {
+      "current": -24,
+      "average": 0.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -24,
+      "average": 0.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -24,
+      "average": 1.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -24,
+      "average": -1.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -24,
+      "average": 9.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -24,
+      "average": -9.0,
+      "determining": -16.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -24,
+      "average": -4.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -24,
+      "average": 8.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -24,
+      "average": -1.6666666666666667,
+      "determining": -12.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -24,
+      "average": 1.5,
+      "determining": -11.25,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -24,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -24,
+      "average": 0.3333333333333333,
+      "determining": -11.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [],
+    "expected": {
+      "current": -23,
+      "average": 0.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -23,
+      "average": 0.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -23,
+      "average": 1.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -23,
+      "average": -1.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -23,
+      "average": 9.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -23,
+      "average": -9.0,
+      "determining": -16.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -23,
+      "average": -4.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -23,
+      "average": 8.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -23,
+      "average": -1.6666666666666667,
+      "determining": -12.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -23,
+      "average": 1.5,
+      "determining": -10.75,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -23,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -23,
+      "average": 0.3333333333333333,
+      "determining": -11.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [],
+    "expected": {
+      "current": -22,
+      "average": 0.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -22,
+      "average": 0.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -22,
+      "average": 1.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -22,
+      "average": -1.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -22,
+      "average": 9.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -22,
+      "average": -9.0,
+      "determining": -15.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -22,
+      "average": -4.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -22,
+      "average": 8.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -22,
+      "average": -1.6666666666666667,
+      "determining": -11.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -22,
+      "average": 1.5,
+      "determining": -10.25,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -22,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -22,
+      "average": 0.3333333333333333,
+      "determining": -10.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [],
+    "expected": {
+      "current": -21,
+      "average": 0.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -21,
+      "average": 0.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -21,
+      "average": 1.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -21,
+      "average": -1.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -21,
+      "average": 9.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -21,
+      "average": -9.0,
+      "determining": -15.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -21,
+      "average": -4.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -21,
+      "average": 8.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -21,
+      "average": -1.6666666666666667,
+      "determining": -11.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -21,
+      "average": 1.5,
+      "determining": -9.75,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -21,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -21,
+      "average": 0.3333333333333333,
+      "determining": -10.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [],
+    "expected": {
+      "current": -20,
+      "average": 0.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -20,
+      "average": 0.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -20,
+      "average": 1.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -20,
+      "average": -1.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -20,
+      "average": 9.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -20,
+      "average": -9.0,
+      "determining": -14.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -20,
+      "average": -4.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -20,
+      "average": 8.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -20,
+      "average": -1.6666666666666667,
+      "determining": -10.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -20,
+      "average": 1.5,
+      "determining": -9.25,
+      "successPercent": 4,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -20,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -20,
+      "average": 0.3333333333333333,
+      "determining": -9.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [],
+    "expected": {
+      "current": -19,
+      "average": 0.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -19,
+      "average": 0.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -19,
+      "average": 1.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -19,
+      "average": -1.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -19,
+      "average": 9.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -19,
+      "average": -9.0,
+      "determining": -14.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -19,
+      "average": -4.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -19,
+      "average": 8.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -19,
+      "average": -1.6666666666666667,
+      "determining": -10.333333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -19,
+      "average": 1.5,
+      "determining": -8.75,
+      "successPercent": 6,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -19,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -19,
+      "average": 0.3333333333333333,
+      "determining": -9.333333333333334,
+      "successPercent": 3,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [],
+    "expected": {
+      "current": -18,
+      "average": 0.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -18,
+      "average": 0.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -18,
+      "average": 1.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -18,
+      "average": -1.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -18,
+      "average": 9.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -18,
+      "average": -9.0,
+      "determining": -13.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -18,
+      "average": -4.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -18,
+      "average": 8.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -18,
+      "average": -1.6666666666666667,
+      "determining": -9.833333333333334,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -18,
+      "average": 1.5,
+      "determining": -8.25,
+      "successPercent": 9,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -18,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -18,
+      "average": 0.3333333333333333,
+      "determining": -8.833333333333334,
+      "successPercent": 6,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [],
+    "expected": {
+      "current": -17,
+      "average": 0.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -17,
+      "average": 0.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -17,
+      "average": 1.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -17,
+      "average": -1.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -17,
+      "average": 9.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -17,
+      "average": -9.0,
+      "determining": -13.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -17,
+      "average": -4.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -17,
+      "average": 8.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -17,
+      "average": -1.6666666666666667,
+      "determining": -9.333333333333334,
+      "successPercent": 3,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -17,
+      "average": 1.5,
+      "determining": -7.75,
+      "successPercent": 11,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -17,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -17,
+      "average": 0.3333333333333333,
+      "determining": -8.333333333333334,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [],
+    "expected": {
+      "current": -16,
+      "average": 0.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -16,
+      "average": 0.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -16,
+      "average": 1.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -16,
+      "average": -1.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -16,
+      "average": 9.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -16,
+      "average": -9.0,
+      "determining": -12.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -16,
+      "average": -4.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -16,
+      "average": 8.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -16,
+      "average": -1.6666666666666667,
+      "determining": -8.833333333333334,
+      "successPercent": 6,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -16,
+      "average": 1.5,
+      "determining": -7.25,
+      "successPercent": 14,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -16,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -16,
+      "average": 0.3333333333333333,
+      "determining": -7.833333333333333,
+      "successPercent": 11,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [],
+    "expected": {
+      "current": -15,
+      "average": 0.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -15,
+      "average": 0.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -15,
+      "average": 1.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -15,
+      "average": -1.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -15,
+      "average": 9.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -15,
+      "average": -9.0,
+      "determining": -12.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -15,
+      "average": -4.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -15,
+      "average": 8.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -15,
+      "average": -1.6666666666666667,
+      "determining": -8.333333333333334,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -15,
+      "average": 1.5,
+      "determining": -6.75,
+      "successPercent": 16,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -15,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -15,
+      "average": 0.3333333333333333,
+      "determining": -7.333333333333333,
+      "successPercent": 13,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [],
+    "expected": {
+      "current": -14,
+      "average": 0.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -14,
+      "average": 0.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -14,
+      "average": 1.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -14,
+      "average": -1.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -14,
+      "average": 9.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -14,
+      "average": -9.0,
+      "determining": -11.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -14,
+      "average": -4.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -14,
+      "average": 8.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -14,
+      "average": -1.6666666666666667,
+      "determining": -7.833333333333333,
+      "successPercent": 11,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -14,
+      "average": 1.5,
+      "determining": -6.25,
+      "successPercent": 19,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -14,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -14,
+      "average": 0.3333333333333333,
+      "determining": -6.833333333333333,
+      "successPercent": 16,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [],
+    "expected": {
+      "current": -13,
+      "average": 0.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -13,
+      "average": 0.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -13,
+      "average": 1.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -13,
+      "average": -1.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -13,
+      "average": 9.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -13,
+      "average": -9.0,
+      "determining": -11.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -13,
+      "average": -4.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -13,
+      "average": 8.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -13,
+      "average": -1.6666666666666667,
+      "determining": -7.333333333333333,
+      "successPercent": 13,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -13,
+      "average": 1.5,
+      "determining": -5.75,
+      "successPercent": 21,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -13,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -13,
+      "average": 0.3333333333333333,
+      "determining": -6.333333333333333,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [],
+    "expected": {
+      "current": -12,
+      "average": 0.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -12,
+      "average": 0.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -12,
+      "average": 1.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -12,
+      "average": -1.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -12,
+      "average": 9.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -12,
+      "average": -9.0,
+      "determining": -10.5,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -12,
+      "average": -4.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -12,
+      "average": 8.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -12,
+      "average": -1.6666666666666667,
+      "determining": -6.833333333333333,
+      "successPercent": 16,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -12,
+      "average": 1.5,
+      "determining": -5.25,
+      "successPercent": 24,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -12,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -12,
+      "average": 0.3333333333333333,
+      "determining": -5.833333333333333,
+      "successPercent": 21,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [],
+    "expected": {
+      "current": -11,
+      "average": 0.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -11,
+      "average": 0.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -11,
+      "average": 1.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -11,
+      "average": -1.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -11,
+      "average": 9.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -11,
+      "average": -9.0,
+      "determining": -10.0,
+      "successPercent": 1,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -11,
+      "average": -4.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -11,
+      "average": 8.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -11,
+      "average": -1.6666666666666667,
+      "determining": -6.333333333333333,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -11,
+      "average": 1.5,
+      "determining": -4.75,
+      "successPercent": 26,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -11,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -11,
+      "average": 0.3333333333333333,
+      "determining": -5.333333333333333,
+      "successPercent": 23,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [],
+    "expected": {
+      "current": -10,
+      "average": 0.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -10,
+      "average": 0.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -10,
+      "average": 1.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -10,
+      "average": -1.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -10,
+      "average": 9.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -10,
+      "average": -9.0,
+      "determining": -9.5,
+      "successPercent": 2,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -10,
+      "average": -4.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -10,
+      "average": 8.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -10,
+      "average": -1.6666666666666667,
+      "determining": -5.833333333333333,
+      "successPercent": 21,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -10,
+      "average": 1.5,
+      "determining": -4.25,
+      "successPercent": 29,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -10,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -10,
+      "average": 0.3333333333333333,
+      "determining": -4.833333333333333,
+      "successPercent": 26,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [],
+    "expected": {
+      "current": -9,
+      "average": 0.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -9,
+      "average": 0.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -9,
+      "average": 1.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -9,
+      "average": -1.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -9,
+      "average": 9.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -9,
+      "average": -9.0,
+      "determining": -9.0,
+      "successPercent": 5,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -9,
+      "average": -4.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -9,
+      "average": 8.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -9,
+      "average": -1.6666666666666667,
+      "determining": -5.333333333333333,
+      "successPercent": 23,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -9,
+      "average": 1.5,
+      "determining": -3.75,
+      "successPercent": 31,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -9,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -9,
+      "average": 0.3333333333333333,
+      "determining": -4.333333333333333,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [],
+    "expected": {
+      "current": -8,
+      "average": 0.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -8,
+      "average": 0.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -8,
+      "average": 1.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -8,
+      "average": -1.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -8,
+      "average": 9.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -8,
+      "average": -9.0,
+      "determining": -8.5,
+      "successPercent": 8,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -8,
+      "average": -4.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -8,
+      "average": 8.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -8,
+      "average": -1.6666666666666667,
+      "determining": -4.833333333333333,
+      "successPercent": 26,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -8,
+      "average": 1.5,
+      "determining": -3.25,
+      "successPercent": 34,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -8,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -8,
+      "average": 0.3333333333333333,
+      "determining": -3.8333333333333335,
+      "successPercent": 31,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [],
+    "expected": {
+      "current": -7,
+      "average": 0.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -7,
+      "average": 0.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -7,
+      "average": 1.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -7,
+      "average": -1.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -7,
+      "average": 9.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -7,
+      "average": -9.0,
+      "determining": -8.0,
+      "successPercent": 10,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -7,
+      "average": -4.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -7,
+      "average": 8.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -7,
+      "average": -1.6666666666666667,
+      "determining": -4.333333333333333,
+      "successPercent": 28,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -7,
+      "average": 1.5,
+      "determining": -2.75,
+      "successPercent": 36,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -7,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -7,
+      "average": 0.3333333333333333,
+      "determining": -3.3333333333333335,
+      "successPercent": 33,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [],
+    "expected": {
+      "current": -6,
+      "average": 0.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -6,
+      "average": 0.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -6,
+      "average": 1.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -6,
+      "average": -1.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -6,
+      "average": 9.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -6,
+      "average": -9.0,
+      "determining": -7.5,
+      "successPercent": 12,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -6,
+      "average": -4.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -6,
+      "average": 8.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -6,
+      "average": -1.6666666666666667,
+      "determining": -3.8333333333333335,
+      "successPercent": 31,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -6,
+      "average": 1.5,
+      "determining": -2.25,
+      "successPercent": 39,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -6,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -6,
+      "average": 0.3333333333333333,
+      "determining": -2.8333333333333335,
+      "successPercent": 36,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [],
+    "expected": {
+      "current": -5,
+      "average": 0.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -5,
+      "average": 0.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -5,
+      "average": 1.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -5,
+      "average": -1.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -5,
+      "average": 9.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -5,
+      "average": -9.0,
+      "determining": -7.0,
+      "successPercent": 15,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -5,
+      "average": -4.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "fatal defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -5,
+      "average": 8.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -5,
+      "average": -1.6666666666666667,
+      "determining": -3.3333333333333335,
+      "successPercent": 33,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -5,
+      "average": 1.5,
+      "determining": -1.75,
+      "successPercent": 41,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -5,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -5,
+      "average": 0.3333333333333333,
+      "determining": -2.3333333333333335,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [],
+    "expected": {
+      "current": -4,
+      "average": 0.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -4,
+      "average": 0.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -4,
+      "average": 1.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -4,
+      "average": -1.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -4,
+      "average": 9.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -4,
+      "average": -9.0,
+      "determining": -6.5,
+      "successPercent": 18,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -4,
+      "average": -4.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -4,
+      "average": 8.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -4,
+      "average": -1.6666666666666667,
+      "determining": -2.8333333333333335,
+      "successPercent": 36,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -4,
+      "average": 1.5,
+      "determining": -1.25,
+      "successPercent": 44,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -4,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -4,
+      "average": 0.3333333333333333,
+      "determining": -1.8333333333333333,
+      "successPercent": 41,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [],
+    "expected": {
+      "current": -3,
+      "average": 0.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -3,
+      "average": 0.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -3,
+      "average": 1.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -3,
+      "average": -1.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -3,
+      "average": 9.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -3,
+      "average": -9.0,
+      "determining": -6.0,
+      "successPercent": 20,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -3,
+      "average": -4.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -3,
+      "average": 8.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -3,
+      "average": -1.6666666666666667,
+      "determining": -2.3333333333333335,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -3,
+      "average": 1.5,
+      "determining": -0.75,
+      "successPercent": 46,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -3,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -3,
+      "average": 0.3333333333333333,
+      "determining": -1.3333333333333333,
+      "successPercent": 43,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [],
+    "expected": {
+      "current": -2,
+      "average": 0.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -2,
+      "average": 0.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -2,
+      "average": 1.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -2,
+      "average": -1.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -2,
+      "average": 9.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -2,
+      "average": -9.0,
+      "determining": -5.5,
+      "successPercent": 22,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -2,
+      "average": -4.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -2,
+      "average": 8.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -2,
+      "average": -1.6666666666666667,
+      "determining": -1.8333333333333335,
+      "successPercent": 41,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -2,
+      "average": 1.5,
+      "determining": -0.25,
+      "successPercent": 49,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -2,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -2,
+      "average": 0.3333333333333333,
+      "determining": -0.8333333333333334,
+      "successPercent": 46,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [],
+    "expected": {
+      "current": -1,
+      "average": 0.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": -1,
+      "average": 0.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": -1,
+      "average": 1.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": -1,
+      "average": -1.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": -1,
+      "average": 9.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": -1,
+      "average": -9.0,
+      "determining": -5.0,
+      "successPercent": 25,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": -1,
+      "average": -4.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": -1,
+      "average": 8.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": -1,
+      "average": -1.6666666666666667,
+      "determining": -1.3333333333333335,
+      "successPercent": 43,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": -1,
+      "average": 1.5,
+      "determining": 0.25,
+      "successPercent": 51,
+      "result": "victory"
+    }
+  },
+  {
+    "current": -1,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": -1,
+      "average": 0.3333333333333333,
+      "determining": -0.33333333333333337,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [],
+    "expected": {
+      "current": 0,
+      "average": 0.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 0,
+      "average": 0.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 0,
+      "average": 1.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 0,
+      "average": -1.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 0,
+      "average": 9.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 0,
+      "average": -9.0,
+      "determining": -4.5,
+      "successPercent": 28,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 0,
+      "average": -4.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 0,
+      "average": 8.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 0,
+      "average": -1.6666666666666667,
+      "determining": -0.8333333333333334,
+      "successPercent": 46,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 0,
+      "average": 1.5,
+      "determining": 0.75,
+      "successPercent": 54,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 0,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 0,
+      "average": 0.3333333333333333,
+      "determining": 0.16666666666666666,
+      "successPercent": 51,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [],
+    "expected": {
+      "current": 1,
+      "average": 0.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 1,
+      "average": 0.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 1,
+      "average": 1.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 1,
+      "average": -1.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 1,
+      "average": 9.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 1,
+      "average": -9.0,
+      "determining": -4.0,
+      "successPercent": 30,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 1,
+      "average": -4.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 1,
+      "average": 8.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 1,
+      "average": -1.6666666666666667,
+      "determining": -0.33333333333333337,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 1,
+      "average": 1.5,
+      "determining": 1.25,
+      "successPercent": 56,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 1,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 1,
+      "average": 0.3333333333333333,
+      "determining": 0.6666666666666666,
+      "successPercent": 53,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [],
+    "expected": {
+      "current": 2,
+      "average": 0.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 2,
+      "average": 0.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 2,
+      "average": 1.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 2,
+      "average": -1.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 2,
+      "average": 9.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 2,
+      "average": -9.0,
+      "determining": -3.5,
+      "successPercent": 32,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 2,
+      "average": -4.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 2,
+      "average": 8.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 2,
+      "average": -1.6666666666666667,
+      "determining": 0.16666666666666663,
+      "successPercent": 51,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 2,
+      "average": 1.5,
+      "determining": 1.75,
+      "successPercent": 59,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 2,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 2,
+      "average": 0.3333333333333333,
+      "determining": 1.1666666666666667,
+      "successPercent": 56,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [],
+    "expected": {
+      "current": 3,
+      "average": 0.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 3,
+      "average": 0.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 3,
+      "average": 1.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 3,
+      "average": -1.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 3,
+      "average": 9.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 3,
+      "average": -9.0,
+      "determining": -3.0,
+      "successPercent": 35,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 3,
+      "average": -4.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 3,
+      "average": 8.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 3,
+      "average": -1.6666666666666667,
+      "determining": 0.6666666666666666,
+      "successPercent": 53,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 3,
+      "average": 1.5,
+      "determining": 2.25,
+      "successPercent": 61,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 3,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 3,
+      "average": 0.3333333333333333,
+      "determining": 1.6666666666666667,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [],
+    "expected": {
+      "current": 4,
+      "average": 0.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 4,
+      "average": 0.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 4,
+      "average": 1.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 4,
+      "average": -1.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 4,
+      "average": 9.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 4,
+      "average": -9.0,
+      "determining": -2.5,
+      "successPercent": 38,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 4,
+      "average": -4.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 4,
+      "average": 8.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 4,
+      "average": -1.6666666666666667,
+      "determining": 1.1666666666666665,
+      "successPercent": 56,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 4,
+      "average": 1.5,
+      "determining": 2.75,
+      "successPercent": 64,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 4,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 4,
+      "average": 0.3333333333333333,
+      "determining": 2.1666666666666665,
+      "successPercent": 61,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [],
+    "expected": {
+      "current": 5,
+      "average": 0.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 5,
+      "average": 0.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 5,
+      "average": 1.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 5,
+      "average": -1.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 5,
+      "average": 9.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 5,
+      "average": -9.0,
+      "determining": -2.0,
+      "successPercent": 40,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 5,
+      "average": -4.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 5,
+      "average": 8.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 5,
+      "average": -1.6666666666666667,
+      "determining": 1.6666666666666665,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 5,
+      "average": 1.5,
+      "determining": 3.25,
+      "successPercent": 66,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 5,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 5,
+      "average": 0.3333333333333333,
+      "determining": 2.6666666666666665,
+      "successPercent": 63,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [],
+    "expected": {
+      "current": 6,
+      "average": 0.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 6,
+      "average": 0.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 6,
+      "average": 1.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 6,
+      "average": -1.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 6,
+      "average": 9.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 6,
+      "average": -9.0,
+      "determining": -1.5,
+      "successPercent": 42,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 6,
+      "average": -4.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 6,
+      "average": 8.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 6,
+      "average": -1.6666666666666667,
+      "determining": 2.1666666666666665,
+      "successPercent": 61,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 6,
+      "average": 1.5,
+      "determining": 3.75,
+      "successPercent": 69,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 6,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 6,
+      "average": 0.3333333333333333,
+      "determining": 3.1666666666666665,
+      "successPercent": 66,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [],
+    "expected": {
+      "current": 7,
+      "average": 0.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 7,
+      "average": 0.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 7,
+      "average": 1.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 7,
+      "average": -1.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 7,
+      "average": 9.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 7,
+      "average": -9.0,
+      "determining": -1.0,
+      "successPercent": 45,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 7,
+      "average": -4.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 7,
+      "average": 8.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 7,
+      "average": -1.6666666666666667,
+      "determining": 2.6666666666666665,
+      "successPercent": 63,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 7,
+      "average": 1.5,
+      "determining": 4.25,
+      "successPercent": 71,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 7,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 7,
+      "average": 0.3333333333333333,
+      "determining": 3.6666666666666665,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [],
+    "expected": {
+      "current": 8,
+      "average": 0.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 8,
+      "average": 0.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 8,
+      "average": 1.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 8,
+      "average": -1.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 8,
+      "average": 9.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 8,
+      "average": -9.0,
+      "determining": -0.5,
+      "successPercent": 48,
+      "result": "defeat"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 8,
+      "average": -4.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 8,
+      "average": 8.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 8,
+      "average": -1.6666666666666667,
+      "determining": 3.1666666666666665,
+      "successPercent": 66,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 8,
+      "average": 1.5,
+      "determining": 4.75,
+      "successPercent": 74,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 8,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 8,
+      "average": 0.3333333333333333,
+      "determining": 4.166666666666667,
+      "successPercent": 71,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [],
+    "expected": {
+      "current": 9,
+      "average": 0.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 9,
+      "average": 0.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 9,
+      "average": 1.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 9,
+      "average": -1.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 9,
+      "average": 9.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 9,
+      "average": -9.0,
+      "determining": 0.0,
+      "successPercent": 50,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 9,
+      "average": -4.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 9,
+      "average": 8.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 9,
+      "average": -1.6666666666666667,
+      "determining": 3.6666666666666665,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 9,
+      "average": 1.5,
+      "determining": 5.25,
+      "successPercent": 76,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 9,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 9,
+      "average": 0.3333333333333333,
+      "determining": 4.666666666666667,
+      "successPercent": 73,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [],
+    "expected": {
+      "current": 10,
+      "average": 0.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 10,
+      "average": 0.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 10,
+      "average": 1.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 10,
+      "average": -1.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 10,
+      "average": 9.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 10,
+      "average": -9.0,
+      "determining": 0.5,
+      "successPercent": 52,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 10,
+      "average": -4.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 10,
+      "average": 8.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 10,
+      "average": -1.6666666666666667,
+      "determining": 4.166666666666667,
+      "successPercent": 71,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 10,
+      "average": 1.5,
+      "determining": 5.75,
+      "successPercent": 79,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 10,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 10,
+      "average": 0.3333333333333333,
+      "determining": 5.166666666666667,
+      "successPercent": 76,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [],
+    "expected": {
+      "current": 11,
+      "average": 0.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 11,
+      "average": 0.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 11,
+      "average": 1.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 11,
+      "average": -1.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 11,
+      "average": 9.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 11,
+      "average": -9.0,
+      "determining": 1.0,
+      "successPercent": 55,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 11,
+      "average": -4.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 11,
+      "average": 8.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 11,
+      "average": -1.6666666666666667,
+      "determining": 4.666666666666667,
+      "successPercent": 73,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 11,
+      "average": 1.5,
+      "determining": 6.25,
+      "successPercent": 81,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 11,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 11,
+      "average": 0.3333333333333333,
+      "determining": 5.666666666666667,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [],
+    "expected": {
+      "current": 12,
+      "average": 0.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 12,
+      "average": 0.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 12,
+      "average": 1.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 12,
+      "average": -1.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 12,
+      "average": 9.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 12,
+      "average": -9.0,
+      "determining": 1.5,
+      "successPercent": 58,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 12,
+      "average": -4.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 12,
+      "average": 8.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 12,
+      "average": -1.6666666666666667,
+      "determining": 5.166666666666667,
+      "successPercent": 76,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 12,
+      "average": 1.5,
+      "determining": 6.75,
+      "successPercent": 84,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 12,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 12,
+      "average": 0.3333333333333333,
+      "determining": 6.166666666666667,
+      "successPercent": 81,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [],
+    "expected": {
+      "current": 13,
+      "average": 0.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 13,
+      "average": 0.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 13,
+      "average": 1.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 13,
+      "average": -1.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 13,
+      "average": 9.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 13,
+      "average": -9.0,
+      "determining": 2.0,
+      "successPercent": 60,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 13,
+      "average": -4.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 13,
+      "average": 8.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 13,
+      "average": -1.6666666666666667,
+      "determining": 5.666666666666667,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 13,
+      "average": 1.5,
+      "determining": 7.25,
+      "successPercent": 86,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 13,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 13,
+      "average": 0.3333333333333333,
+      "determining": 6.666666666666667,
+      "successPercent": 83,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [],
+    "expected": {
+      "current": 14,
+      "average": 0.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 14,
+      "average": 0.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 14,
+      "average": 1.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 14,
+      "average": -1.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 14,
+      "average": 9.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 14,
+      "average": -9.0,
+      "determining": 2.5,
+      "successPercent": 62,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 14,
+      "average": -4.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 14,
+      "average": 8.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 14,
+      "average": -1.6666666666666667,
+      "determining": 6.166666666666667,
+      "successPercent": 81,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 14,
+      "average": 1.5,
+      "determining": 7.75,
+      "successPercent": 89,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 14,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 14,
+      "average": 0.3333333333333333,
+      "determining": 7.166666666666667,
+      "successPercent": 86,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [],
+    "expected": {
+      "current": 15,
+      "average": 0.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 15,
+      "average": 0.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 15,
+      "average": 1.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 15,
+      "average": -1.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 15,
+      "average": 9.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 15,
+      "average": -9.0,
+      "determining": 3.0,
+      "successPercent": 65,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 15,
+      "average": -4.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 15,
+      "average": 8.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 15,
+      "average": -1.6666666666666667,
+      "determining": 6.666666666666667,
+      "successPercent": 83,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 15,
+      "average": 1.5,
+      "determining": 8.25,
+      "successPercent": 91,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 15,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 15,
+      "average": 0.3333333333333333,
+      "determining": 7.666666666666667,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [],
+    "expected": {
+      "current": 16,
+      "average": 0.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 16,
+      "average": 0.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 16,
+      "average": 1.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 16,
+      "average": -1.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 16,
+      "average": 9.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 16,
+      "average": -9.0,
+      "determining": 3.5,
+      "successPercent": 68,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 16,
+      "average": -4.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 16,
+      "average": 8.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 16,
+      "average": -1.6666666666666667,
+      "determining": 7.166666666666667,
+      "successPercent": 86,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 16,
+      "average": 1.5,
+      "determining": 8.75,
+      "successPercent": 94,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 16,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 16,
+      "average": 0.3333333333333333,
+      "determining": 8.166666666666666,
+      "successPercent": 91,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [],
+    "expected": {
+      "current": 17,
+      "average": 0.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 17,
+      "average": 0.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 17,
+      "average": 1.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 17,
+      "average": -1.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 17,
+      "average": 9.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 17,
+      "average": -9.0,
+      "determining": 4.0,
+      "successPercent": 70,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 17,
+      "average": -4.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 17,
+      "average": 8.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 17,
+      "average": -1.6666666666666667,
+      "determining": 7.666666666666667,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 17,
+      "average": 1.5,
+      "determining": 9.25,
+      "successPercent": 96,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 17,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 17,
+      "average": 0.3333333333333333,
+      "determining": 8.666666666666666,
+      "successPercent": 93,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [],
+    "expected": {
+      "current": 18,
+      "average": 0.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 18,
+      "average": 0.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 18,
+      "average": 1.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 18,
+      "average": -1.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 18,
+      "average": 9.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 18,
+      "average": -9.0,
+      "determining": 4.5,
+      "successPercent": 72,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 18,
+      "average": -4.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 18,
+      "average": 8.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 18,
+      "average": -1.6666666666666667,
+      "determining": 8.166666666666666,
+      "successPercent": 91,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 18,
+      "average": 1.5,
+      "determining": 9.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 18,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 18,
+      "average": 0.3333333333333333,
+      "determining": 9.166666666666666,
+      "successPercent": 96,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [],
+    "expected": {
+      "current": 19,
+      "average": 0.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 19,
+      "average": 0.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 19,
+      "average": 1.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 19,
+      "average": -1.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 19,
+      "average": 9.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 19,
+      "average": -9.0,
+      "determining": 5.0,
+      "successPercent": 75,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 19,
+      "average": -4.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 19,
+      "average": 8.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 19,
+      "average": -1.6666666666666667,
+      "determining": 8.666666666666666,
+      "successPercent": 93,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 19,
+      "average": 1.5,
+      "determining": 10.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 19,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 19,
+      "average": 0.3333333333333333,
+      "determining": 9.666666666666666,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [],
+    "expected": {
+      "current": 20,
+      "average": 0.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 20,
+      "average": 0.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 20,
+      "average": 1.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 20,
+      "average": -1.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 20,
+      "average": 9.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 20,
+      "average": -9.0,
+      "determining": 5.5,
+      "successPercent": 78,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 20,
+      "average": -4.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 20,
+      "average": 8.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 20,
+      "average": -1.6666666666666667,
+      "determining": 9.166666666666666,
+      "successPercent": 96,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 20,
+      "average": 1.5,
+      "determining": 10.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 20,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 20,
+      "average": 0.3333333333333333,
+      "determining": 10.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [],
+    "expected": {
+      "current": 21,
+      "average": 0.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 21,
+      "average": 0.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 21,
+      "average": 1.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 21,
+      "average": -1.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 21,
+      "average": 9.0,
+      "determining": 15.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 21,
+      "average": -9.0,
+      "determining": 6.0,
+      "successPercent": 80,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 21,
+      "average": -4.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 21,
+      "average": 8.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 21,
+      "average": -1.6666666666666667,
+      "determining": 9.666666666666666,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 21,
+      "average": 1.5,
+      "determining": 11.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 21,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 21,
+      "average": 0.3333333333333333,
+      "determining": 10.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [],
+    "expected": {
+      "current": 22,
+      "average": 0.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 22,
+      "average": 0.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 22,
+      "average": 1.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 22,
+      "average": -1.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 22,
+      "average": 9.0,
+      "determining": 15.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 22,
+      "average": -9.0,
+      "determining": 6.5,
+      "successPercent": 82,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 22,
+      "average": -4.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 22,
+      "average": 8.0,
+      "determining": 15.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 22,
+      "average": -1.6666666666666667,
+      "determining": 10.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 22,
+      "average": 1.5,
+      "determining": 11.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 22,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 22,
+      "average": 0.3333333333333333,
+      "determining": 11.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [],
+    "expected": {
+      "current": 23,
+      "average": 0.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 23,
+      "average": 0.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 23,
+      "average": 1.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 23,
+      "average": -1.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 23,
+      "average": 9.0,
+      "determining": 16.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 23,
+      "average": -9.0,
+      "determining": 7.0,
+      "successPercent": 85,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 23,
+      "average": -4.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 23,
+      "average": 8.0,
+      "determining": 15.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 23,
+      "average": -1.6666666666666667,
+      "determining": 10.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 23,
+      "average": 1.5,
+      "determining": 12.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 23,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 23,
+      "average": 0.3333333333333333,
+      "determining": 11.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [],
+    "expected": {
+      "current": 24,
+      "average": 0.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 24,
+      "average": 0.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 24,
+      "average": 1.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 24,
+      "average": -1.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 24,
+      "average": 9.0,
+      "determining": 16.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 24,
+      "average": -9.0,
+      "determining": 7.5,
+      "successPercent": 88,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 24,
+      "average": -4.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 24,
+      "average": 8.0,
+      "determining": 16.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 24,
+      "average": -1.6666666666666667,
+      "determining": 11.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 24,
+      "average": 1.5,
+      "determining": 12.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 24,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 24,
+      "average": 0.3333333333333333,
+      "determining": 12.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [],
+    "expected": {
+      "current": 25,
+      "average": 0.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 25,
+      "average": 0.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 25,
+      "average": 1.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 25,
+      "average": -1.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 25,
+      "average": 9.0,
+      "determining": 17.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 25,
+      "average": -9.0,
+      "determining": 8.0,
+      "successPercent": 90,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 25,
+      "average": -4.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 25,
+      "average": 8.0,
+      "determining": 16.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 25,
+      "average": -1.6666666666666667,
+      "determining": 11.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 25,
+      "average": 1.5,
+      "determining": 13.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 25,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 25,
+      "average": 0.3333333333333333,
+      "determining": 12.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [],
+    "expected": {
+      "current": 26,
+      "average": 0.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 26,
+      "average": 0.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 26,
+      "average": 1.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 26,
+      "average": -1.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 26,
+      "average": 9.0,
+      "determining": 17.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 26,
+      "average": -9.0,
+      "determining": 8.5,
+      "successPercent": 92,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 26,
+      "average": -4.0,
+      "determining": 11.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 26,
+      "average": 8.0,
+      "determining": 17.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 26,
+      "average": -1.6666666666666667,
+      "determining": 12.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 26,
+      "average": 1.5,
+      "determining": 13.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 26,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 26,
+      "average": 0.3333333333333333,
+      "determining": 13.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [],
+    "expected": {
+      "current": 27,
+      "average": 0.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 27,
+      "average": 0.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 27,
+      "average": 1.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 27,
+      "average": -1.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 27,
+      "average": 9.0,
+      "determining": 18.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 27,
+      "average": -9.0,
+      "determining": 9.0,
+      "successPercent": 95,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 27,
+      "average": -4.0,
+      "determining": 11.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 27,
+      "average": 8.0,
+      "determining": 17.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 27,
+      "average": -1.6666666666666667,
+      "determining": 12.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 27,
+      "average": 1.5,
+      "determining": 14.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 27,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 27,
+      "average": 0.3333333333333333,
+      "determining": 13.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [],
+    "expected": {
+      "current": 28,
+      "average": 0.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 28,
+      "average": 0.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 28,
+      "average": 1.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 28,
+      "average": -1.0,
+      "determining": 13.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 28,
+      "average": 9.0,
+      "determining": 18.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 28,
+      "average": -9.0,
+      "determining": 9.5,
+      "successPercent": 98,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 28,
+      "average": -4.0,
+      "determining": 12.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 28,
+      "average": 8.0,
+      "determining": 18.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 28,
+      "average": -1.6666666666666667,
+      "determining": 13.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 28,
+      "average": 1.5,
+      "determining": 14.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 28,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 28,
+      "average": 0.3333333333333333,
+      "determining": 14.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [],
+    "expected": {
+      "current": 29,
+      "average": 0.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 29,
+      "average": 0.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 29,
+      "average": 1.0,
+      "determining": 15.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 29,
+      "average": -1.0,
+      "determining": 14.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 29,
+      "average": 9.0,
+      "determining": 19.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 29,
+      "average": -9.0,
+      "determining": 10.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 29,
+      "average": -4.0,
+      "determining": 12.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 29,
+      "average": 8.0,
+      "determining": 18.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 29,
+      "average": -1.6666666666666667,
+      "determining": 13.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 29,
+      "average": 1.5,
+      "determining": 15.25,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 29,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 29,
+      "average": 0.3333333333333333,
+      "determining": 14.666666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [],
+    "expected": {
+      "current": 30,
+      "average": 0.0,
+      "determining": 15.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      0
+    ],
+    "expected": {
+      "current": 30,
+      "average": 0.0,
+      "determining": 15.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      1
+    ],
+    "expected": {
+      "current": 30,
+      "average": 1.0,
+      "determining": 15.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      -1
+    ],
+    "expected": {
+      "current": 30,
+      "average": -1.0,
+      "determining": 14.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      9
+    ],
+    "expected": {
+      "current": 30,
+      "average": 9.0,
+      "determining": 19.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      -9
+    ],
+    "expected": {
+      "current": 30,
+      "average": -9.0,
+      "determining": 10.5,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      -3,
+      -5
+    ],
+    "expected": {
+      "current": 30,
+      "average": -4.0,
+      "determining": 13.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      7,
+      8,
+      9
+    ],
+    "expected": {
+      "current": 30,
+      "average": 8.0,
+      "determining": 19.0,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      -8,
+      2,
+      1
+    ],
+    "expected": {
+      "current": 30,
+      "average": -1.6666666666666667,
+      "determining": 14.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      1,
+      2
+    ],
+    "expected": {
+      "current": 30,
+      "average": 1.5,
+      "determining": 15.75,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  },
+  {
+    "current": 30,
+    "prior": [
+      0,
+      1,
+      0
+    ],
+    "expected": {
+      "current": 30,
+      "average": 0.3333333333333333,
+      "determining": 15.166666666666666,
+      "successPercent": 99,
+      "result": "victory"
+    }
+  }
+]

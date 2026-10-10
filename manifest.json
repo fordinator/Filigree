@@ -1,0 +1,12 @@
+{
+  "display_name": "Filigree",
+  "version": "0.6.0",
+  "author": "fordinator",
+  "js": "index.js",
+  "css": "style.css",
+  "loading_order": 90,
+  "generate_interceptor": "filigreeInterceptor",
+  "requires": [],
+  "optional": [],
+  "auto_update": false
+}

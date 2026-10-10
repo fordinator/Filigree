@@ -1,0 +1,17 @@
+{
+  "name": "filigree",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Solo narrative RPG mechanics and scene authoring for SillyTavern",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:browser": "playwright test",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@axe-core/playwright": "^4.11.1"
+  }
+}

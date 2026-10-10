@@ -1,0 +1,632 @@
+{
+  "metadata": {
+    "name": "Filigree ULTRA Scene Bank",
+    "version": 1,
+    "notes": "A modern-night VtM chronicle for ultra.py. Human-authored beats define the chronicle, but the prompt leaves staging, wording, and moment-to-moment texture to the LLM while actively discouraging repeated dialogue and paragraphs."
+  },
+  "authoring": {
+    "notes": "Human-authored material is preferred by ultra.py before any LLM invention. The player character remains Mortal only; this JSON defines the city, court, mortal pressure, and story beats.",
+    "story": {
+      "manual_synopsis": "On New Year's Eve in Saint Halcyon, the Prince summons the coterie to a private gala at Elysium while a mortal broadcaster, a missing courier, and a vacancy in the city's court threaten to turn the night into a public disaster.",
+      "central_goal": "Keep the Masquerade intact, identify who is driving the crisis, and decide whether the city survives the night through order, truth, or a quieter bargain.",
+      "central_pressure": "The court needs a clean midnight transition, but the cleanest version of events may hide the ugliest one.",
+      "stakes": "The city's stability, the court's legitimacy, several mortals who know too much, and the player's standing as a useful or dangerous problem-solver.",
+      "acts": {
+        "act1": "Receive the Prince's summons, handle the first breach at the gala, and decide whether the mortal trouble is accidental or arranged.",
+        "act2": "Follow the courier trail through club rooms, service corridors, and a hidden route into the undercity while three ambitious Kindred angle for the vacant court role.",
+        "act3": "Force a choice at the edge of midnight, when the Masquerade, the vacant seat, and the city's future all become impossible to keep separate."
+      },
+      "climax": "As the ball drops, the hidden architect of the night's trouble makes one last move to seize influence or bury the evidence.",
+      "conclusion": "Resolve the court crisis, decide what the mortals learn or lose, and leave Saint Halcyon under a new balance of power.",
+      "turn_budget": {
+        "min": 30,
+        "max": 40
+      }
+    },
+    "character_generation": {
+      "description_prompt": "**Your character is ready, {user_mention}.**\n\nYour character is Mortal. If you want, provide a brief description of your mortal character's name, appearance, temperament, job, or why they are in the city.\n\n**Please reply to this message with your description.** (Or reply with `skip` if you'd rather not.)"
+    },
+    "locations": [
+      {
+        "name": "Saint Halcyon",
+        "description": "a river city of glass towers, old brick churches, club basements, and civic institutions that look clean only from a distance",
+        "mood": "wet pavement, winter light, and expensive secrecy"
+      },
+      {
+        "name": "the Elysium of the Gilded Chapel",
+        "description": "a renovated chapel and gallery space where the city's Kindred gather under security lights, art walls, and careful etiquette",
+        "mood": "wine, candles, curated elegance, and hidden fear"
+      },
+      {
+        "name": "the Nosferatu Warrens",
+        "description": "a sealed network of service tunnels, abandoned retail spaces, and dry utility rooms below the city",
+        "mood": "dripping concrete, stale air, and quiet bargaining"
+      },
+      {
+        "name": "the Floodline",
+        "description": "river warehouses and back-alley clubs where deliveries, favors, and bodies can all be moved without a public record",
+        "mood": "bass through brick, diesel, and missing cameras"
+      },
+      {
+        "name": "Saint Agnes Archive",
+        "description": "a church basement archive holding old civic ledgers, donor records, and one or two facts someone meant to forget",
+        "mood": "dust, paper, candles, and sealed doors"
+      }
+    ],
+    "npcs": [
+      {
+        "name": "Prince Lucien Vale",
+        "role": "Prince of Saint Halcyon",
+        "description": "a calm, immaculate Ventrue who treats every problem as a matter of presentation and timing",
+        "agenda": "keep the court intact through the New Year transition and avoid any visible weakness",
+        "secret": "he knows the current vacancy was created by a quiet political murder, not an accident",
+        "voice": "cool, formal, patient, and never quite relaxed"
+      },
+      {
+        "name": "Sheriff Marisol Velez",
+        "role": "Sheriff",
+        "description": "a sharp-eyed enforcer who prefers proof to rumor and hates being asked to clean up somebody else's mess",
+        "agenda": "contain the breach and identify the real architect before the court blames the wrong people",
+        "secret": "she has already broken one order tonight because she suspects the vacancy is being manipulated",
+        "voice": "direct, restrained, and hard to bluff"
+      },
+      {
+        "name": "Adrian Rook",
+        "role": "Harpy",
+        "description": "a polished Toreador gossip broker who can make a smile feel like a knife at the throat",
+        "agenda": "control the story of the night and profit from whichever version survives until midnight",
+        "secret": "he fed a rumor to the mortal broadcaster on purpose to test a rival's reaction",
+        "voice": "silky, amused, and venomously observant"
+      },
+      {
+        "name": "Naomi Frost",
+        "role": "mortal broadcaster",
+        "description": "a local streamer and nightlife reporter with too much curiosity and not enough fear",
+        "agenda": "get the story, stay alive, and maybe become a bigger name by morning",
+        "secret": "an anonymous source has already shown her one clip that should not exist",
+        "voice": "fast, skeptical, and always one joke away from panic"
+      },
+      {
+        "name": "Elias Wren",
+        "role": "missing courier",
+        "description": "a thin-blood runner who has seen too many sealed envelopes and private routes to be a simple errand boy",
+        "agenda": "survive long enough to trade what he knows for safety",
+        "secret": "he carried proof that links the vacancy to the city's older murder",
+        "voice": "careful, twitchy, and always watching exits"
+      },
+      {
+        "name": "Sister Corinne Bell",
+        "role": "archive keeper and ghoul",
+        "description": "a composed church archivist whose piety masks a very practical understanding of power",
+        "agenda": "protect the records and keep them out of the Prince's hands unless necessary",
+        "secret": "she hid the one page that names the dead mortal tied to the vacancy",
+        "voice": "quiet, measured, and more tired than she admits"
+      },
+      {
+        "name": "Vivian Cross",
+        "role": "ambitious Ventrue",
+        "description": "a poised court operator who has the manner of a successor already practicing the chair",
+        "agenda": "use the New Year's crisis to step closer to the vacant seat",
+        "secret": "she is funding one part of the chaos to control the outcome",
+        "voice": "perfectly courteous, with pressure underneath"
+      },
+      {
+        "name": "Bastian Vale",
+        "role": "ambitious Toreador",
+        "description": "a style-obsessed opportunist who treats influence like nightlife and attention like currency",
+        "agenda": "turn the gala into a triumph that just happens to make him indispensable",
+        "secret": "he knows who the mortal broadcaster has been talking to",
+        "voice": "bright, theatrical, and always watching the room"
+      }
+    ],
+    "objects": [
+      {
+        "name": "the silver access card",
+        "description": "a wiped gala keycard with hidden access history to private levels and service passages",
+        "purpose": "connects the public event to the undercity route"
+      },
+      {
+        "name": "the courier ledger page",
+        "description": "a torn record showing impossible late-night movement between the gala, the archive, and the Floodline",
+        "purpose": "links the vacancy to the older murder"
+      },
+      {
+        "name": "Naomi's clip archive",
+        "description": "a collection of short recordings, one of which catches the wrong reflection and the wrong face",
+        "purpose": "active Masquerade risk and social leverage"
+      },
+      {
+        "name": "the black invitation seal",
+        "description": "a formal summons bearing the Prince's seal and a hint that the night was planned in advance",
+        "purpose": "signals that the crisis was expected, not accidental"
+      }
+    ],
+    "conflicts": [
+      "a mortal broadcaster is one good clip away from becoming a citywide problem",
+      "the Prince wants the story controlled while the Sheriff wants the culprit identified",
+      "three ambitious Kindred are circling a vacant court role and treating the crisis like an audition",
+      "the missing courier's evidence could expose a political murder the city has lived around for years"
+    ],
+    "stakes": [
+      "whether the Masquerade survives the night",
+      "who gets blamed for the vacancy and the breach",
+      "which mortals are protected, silenced, or sacrificed",
+      "whether the player is seen as a trusted fixer or a useful liability"
+    ],
+    "plot_beats": {
+      "act1": [
+        "The Prince summons the player to the Gilded Chapel and makes the New Year's problem sound smaller than it is.",
+        "Naomi Frost is already close to posting something that can damage several Kindred at once.",
+        "The gala's first security failure points to inside access rather than random luck."
+      ],
+      "act2": [
+        "The silver access card leads to the Nosferatu Warrens and then back toward the archive.",
+        "The courier ledger reveals a route no one was supposed to know about.",
+        "Vivian Cross and Bastian Vale both act like they are helping while quietly competing for the vacancy."
+      ],
+      "act3": [
+        "The court's midnight transition becomes the stage for a direct accusation or a carefully negotiated lie.",
+        "Elias Wren resurfaces with the one detail that can topple the cleanest story.",
+        "The Prince must either confirm the truth, cover it, or hand the city to someone else."
+      ],
+      "climax": [
+        "At the ball drop, the real architect of the breach makes a final play for control.",
+        "The player must choose whether to preserve the court's stability, expose the murder, or force a new arrangement."
+      ],
+      "conclusion": [
+        "The city's official story of the night is rewritten or broken open.",
+        "Saint Halcyon enters the New Year with a new balance of fear, loyalty, and debt."
+      ]
+    },
+    "twists": {
+      "act1": [
+        "The mortal broadcaster was nudged toward the story by someone inside the court.",
+        "The first breach at the gala was staged to expose a rival rather than caused by accident."
+      ],
+      "act2": [
+        "The missing courier did not vanish to hide from the Prince; he vanished to avoid being used by the Prince's allies.",
+        "The archive page names a dead mortal whose death was politically convenient."
+      ],
+      "act3": [
+        "The person best positioned to save the Masquerade is also the one most compromised by the old murder.",
+        "The vacant seat may be the reward for the crisis, not the casualty of it."
+      ],
+      "erratic": [
+        "Naomi's stream starts playing an audio fragment from a room she has not entered yet.",
+        "a service elevator opens with the wrong guest inside and the wrong timing",
+        "the venue's security feed briefly shows a body in a corridor that is now empty",
+        "the archive lights cut out just long enough for someone to move a page"
+      ]
+    },
+    "opportunities": [
+      "redirect Naomi before she posts the one clip that matters",
+      "earn the Sheriff's trust by checking the breach before the court cleans it up",
+      "use the Harpy's appetite for gossip to surface the competition for the vacant seat",
+      "turn the archive into a place where the old murder can no longer stay buried"
+    ],
+    "consequences": {
+      "act1": [
+        "one faction decides whether the player is useful or dangerous",
+        "the mortal risk either softens or becomes impossible to ignore"
+      ],
+      "act2": [
+        "the player gains access to the hidden story but loses neutrality",
+        "an ally offers a favor that will later carry a price"
+      ],
+      "act3": [
+        "the court's succession problem and the Masquerade breach collide in public",
+        "someone important becomes vulnerable in front of witnesses"
+      ],
+      "conclusion": [
+        "Saint Halcyon keeps the crown, changes hands, or starts the year with a lie too large to hide",
+        "the player leaves behind a city that remembers what kind of mortal-friendly operator they chose to be"
+      ]
+    },
+    "atmosphere": [
+      "wet city light on black glass and polished stone",
+      "gallery perfume over old blood and HVAC hum",
+      "bass from the club floor leaking through concrete",
+      "church dust and printer toner under candle smoke",
+      "winter wind moving over rooftops and balconies"
+    ],
+    "scene_card_overrides": {
+      "motion": [
+        "summons",
+        "escort",
+        "surveillance",
+        "negotiation",
+        "containment",
+        "interrogation",
+        "cover-up",
+        "revelation"
+      ]
+    }
+  },
+  "prompt_text": {
+    "base": [
+      "You are the Storyteller.",
+      "Use the story history as canon, but never mirror its exact wording.",
+      "Keep the tone urban, secretive, predatory, and personal.",
+      "Treat the scene card as optional fuel, not a checklist or script.",
+      "Let the player's action decide the immediate shape of the scene.",
+      "Make every scene matter socially, emotionally, or politically without repeating a recent line or paragraph shape."
+    ],
+    "scene_card_label": "Scene card (blend naturally; do not list it in the reply):",
+    "memory_intro": [
+      "Recent beats to avoid echoing unless the player explicitly returns to them:"
+    ],
+    "length": [
+      "Keep the narration tight and impactful. Target under {word_limit} words, usually 2-3 compact paragraphs."
+    ],
+    "question": [
+      "End with exactly: What do you do now?"
+    ],
+    "kinds": {
+      "opening": [
+        "Open in motion, with the player already in the night's pressure.",
+        "Establish one immediate social fact and one concrete complication.",
+        "Do not explain the whole city."
+      ],
+      "success": [
+        "Player action: {action_text}",
+        "Outcome anchor: {outcome_text}",
+        "Show the local effect first.",
+        "Add one fresh detail that changes the social or practical situation, then stop."
+      ],
+      "critical": [
+        "Player action: {action_text}",
+        "Roll outcome: {outcome_text}",
+        "Resolve the attempt clearly.",
+        "Change the situation in a specific, lasting way appropriate to the roll without restaging the previous scene."
+      ],
+      "erratic": [
+        "Erratic value: {ev}",
+        "Player action: {action_text}",
+        "Make the interruption playable, urban, and tied to the current scene.",
+        "Keep it grounded in the city and the Masquerade."
+      ],
+      "conclusion": [
+        "Conclusion reason: {outcome_text}",
+        "Close with a decisive final image.",
+        "Name what changed for the city, the court, and the player's standing."
+      ]
+    }
+  },
+  "scene_cards": {
+    "common": {
+      "setting": [
+        "fragments.settings.gala",
+        "fragments.settings.city_night",
+        "fragments.settings.backrooms",
+        "fragments.settings.undercity"
+      ],
+      "texture": [
+        "fragments.sensory.textures",
+        "fragments.sensory.weather",
+        "fragments.sensory.sounds"
+      ],
+      "motion": "fragments.motions"
+    },
+    "by_kind": {
+      "opening": {
+        "frame": "fragments.frames.opening",
+        "pressure": [
+          "fragments.pressures.social",
+          "fragments.pressures.masquerade",
+          "fragments.pressures.mystery"
+        ],
+        "focus": [
+          "fragments.focuses.npcs",
+          "fragments.focuses.objects",
+          "fragments.focuses.locations"
+        ],
+        "opportunity": "fragments.opportunities"
+      },
+      "success": {
+        "frame": "fragments.frames.success",
+        "pressure": [
+          "fragments.pressures.social",
+          "fragments.pressures.practical"
+        ],
+        "focus": [
+          "fragments.focuses.objects",
+          "fragments.focuses.npcs",
+          "fragments.focuses.clues"
+        ],
+        "consequence": "fragments.consequences.small"
+      },
+      "critical": {
+        "frame": "fragments.frames.critical",
+        "pressure": [
+          "fragments.pressures.danger",
+          "fragments.pressures.social",
+          "fragments.pressures.masquerade"
+        ],
+        "focus": [
+          "fragments.focuses.threats",
+          "fragments.focuses.clues",
+          "fragments.focuses.npcs"
+        ],
+        "consequence": "fragments.consequences.major"
+      },
+      "erratic": {
+        "frame": "fragments.frames.erratic",
+        "pressure": [
+          "fragments.pressures.danger",
+          "fragments.pressures.masquerade",
+          "fragments.pressures.practical"
+        ],
+        "focus": [
+          "fragments.focuses.objects",
+          "fragments.focuses.creatures",
+          "fragments.focuses.locations"
+        ],
+        "event": "fragments.erratic_events",
+        "consequence": "fragments.consequences.erratic"
+      },
+      "conclusion": {
+        "frame": "fragments.frames.conclusion",
+        "focus": [
+          "fragments.focuses.npcs",
+          "fragments.focuses.locations",
+          "fragments.focuses.objects"
+        ],
+        "consequence": "fragments.consequences.aftermath"
+      }
+    }
+  },
+  "fragments": {
+    "frames": {
+      "opening": [
+        "Start with a formal summons or a private request made under public pressure.",
+        "Open while the night is already in motion and somebody important is watching.",
+        "Begin with a small breach that could become a city problem by midnight.",
+        "Start in the middle of a social situation with one obvious secret nearby."
+      ],
+      "success": [
+        "Let the result create leverage, not comfort.",
+        "Show who noticed, who benefits, and who now owes something.",
+        "Treat the action as progress through a living political system.",
+        "Reveal one detail that makes the night's situation more dangerous to ignore."
+      ],
+      "critical": [
+        "Let the roll create a new balance of power.",
+        "Resolve the immediate attempt, then shift pressure somewhere else.",
+        "Make one relationship, route, secret, or public story change hands.",
+        "Let the outcome alter who can safely act next."
+      ],
+      "erratic": [
+        "Interrupt the moment with a sharp but playable complication.",
+        "Let the city misbehave in a way people must react to immediately.",
+        "Make the surprise urban, social, and expensive.",
+        "Bring in a complication that changes priorities without replacing the chronicle."
+      ],
+      "conclusion": [
+        "End on what the city will remember and what it must pretend to forget.",
+        "Close with witnesses, residue, and a changed political temperature.",
+        "Give the ending a tangible object, place, or surviving lie.",
+        "Let the final image suggest future trouble without undoing the night's resolution."
+      ]
+    },
+    "settings": {
+      "gala": [
+        "the Gilded Chapel's main hall with its candles, security, and curated art",
+        "a private reception room above the dance floor where the important names collect",
+        "the balcony edge overlooking the gala with a view of who is watching whom",
+        "a donor lounge with locked doors and too many quiet conversations",
+        "the service entrance where the public mask slips for a second"
+      ],
+      "city_night": [
+        "a wet downtown block of valet lights and late-night traffic",
+        "a riverfront lane with service trucks and hidden cameras",
+        "a parking structure with one blind corner everyone seems to know",
+        "a late-night diner where the wrong people are both regulars",
+        "an elevator lobby full of expensive silence"
+      ],
+      "backrooms": [
+        "a security office with too many paused camera feeds",
+        "a backstage storage room full of event gear and old panic",
+        "a lawyer's conference room that still smells like toner and nerves",
+        "a locked maintenance floor with one useful door and four useless ones",
+        "a church archive room beneath the city"
+      ],
+      "undercity": [
+        "the Nosferatu Warrens where the walls listen better than people do",
+        "a service tunnel beneath the chapel and into old brick",
+        "a utility corridor with a dead camera and fresh footprints",
+        "a flooded underpass where messages travel faster than cars",
+        "a hidden route behind the city's respectable face"
+      ]
+    },
+    "pressures": {
+      "social": [
+        "an impatient Prince expects immediate obedience",
+        "two rivals are pretending to cooperate in front of witnesses",
+        "a host needs the room calm even though the room knows better",
+        "a subordinate is being tested in public by someone who enjoys it",
+        "someone important is asking for a favor while pretending it is merely courtesy"
+      ],
+      "masquerade": [
+        "a mortal camera has seen too much or might soon",
+        "a body or wound does not fit a normal public explanation",
+        "security footage exists but should not",
+        "someone is already shaping the human narrative online",
+        "one small public mistake could force several larger lies"
+      ],
+      "mystery": [
+        "a missing courier knows why tonight matters",
+        "an old case file points to the wrong dead person",
+        "a private invitation was sent to someone who should not have been included",
+        "a ledger entry shows movement no official route can explain",
+        "someone has been moving evidence instead of destroying it"
+      ],
+      "practical": [
+        "a locked door or missing key slows the clean solution",
+        "the one useful device is cracked, stolen, dead, or password-protected",
+        "the venue schedule is about to put the wrong people in the same place",
+        "private space is running out fast",
+        "a cleanup has already started and may destroy what matters"
+      ],
+      "danger": [
+        "someone armed with authority is approaching",
+        "a panicked subordinate is close to making everything worse",
+        "the room has shifted from tense to predatory",
+        "the wrong faction has arrived early",
+        "someone has decided this problem should end with a body"
+      ]
+    },
+    "focuses": {
+      "npcs": [
+        "a Prince who would rather look inevitable than honest",
+        "a Sheriff whose patience is running out",
+        "a Harpy curating humiliation like an art form",
+        "a mortal broadcaster one clip away from disaster",
+        "a missing courier whose fear is almost as useful as his evidence",
+        "a ghoul archivist with a longer memory than the court deserves",
+        "an ambitious Ventrue who smiles like succession is already settled",
+        "an ambitious Toreador who treats the party like a stage"
+      ],
+      "objects": [
+        "a silver access card with the wrong history",
+        "a torn ledger page that does not match the official record",
+        "a phone full of short clips waiting to become a public problem",
+        "a sealed envelope too old-fashioned for innocent contents",
+        "an event badge that places the wrong guest in the wrong room",
+        "a hard drive someone meant to collect before anyone curious arrived",
+        "a black invitation seal with the Prince's mark",
+        "a lipstick-smudged glass from the wrong side of the room"
+      ],
+      "locations": [
+        "the quietest corridor in a loud venue",
+        "a church archive room hidden below daylight life",
+        "a service entrance where security is thicker than hospitality",
+        "a rooftop edge with excellent views and worse privacy",
+        "a river warehouse office that was cleaned too quickly",
+        "a stairwell camera blind spot everyone important seems to know",
+        "the elevator lobby between public safety and private panic",
+        "the undercity route beneath the gala"
+      ],
+      "clues": [
+        "a timestamp that should be impossible",
+        "an erased name still readable in angled light",
+        "a public lie contradicted by something mundane and physical",
+        "a missing minute in the security timeline",
+        "a blood trace that suggests staging rather than frenzy",
+        "a favor record tied to tonight's guest list",
+        "an apology message sent too early to be innocent",
+        "a route marker only an insider would notice"
+      ],
+      "threats": [
+        "an enforcer ordered to keep this quiet no matter the price",
+        "a social predator who prefers blackmail to force because it lasts longer",
+        "a panicked ghoul carrying orders they barely understand",
+        "a rival coterie sniffing opportunity in the confusion",
+        "a desperate messenger who knows exactly enough to die badly",
+        "a mortal witness with courage, curiosity, and terrible timing",
+        "a handler who keeps cleaning scenes instead of solving them",
+        "a court loyalist who thinks stability justifies any ugliness"
+      ],
+      "creatures": [
+        "a starving neonate trying too hard to act composed",
+        "a ghoul hound straining against someone else's restraint",
+        "a rat swarm disturbed from old stone below the venue",
+        "a rooftop falcon that has learned the city watches back",
+        "a stray dog waiting outside a service exit it recognizes too well",
+        "a police horse stamping at air no mortal can read",
+        "a swarm of moths drawn to a service light that should be dead"
+      ]
+    },
+    "sensory": {
+      "textures": [
+        "cold glass, warm skin, and polished stone under hard shoes",
+        "perfume over river damp and printer heat",
+        "velvet seating, security plastic, and old paper fibers",
+        "church dust caught beneath designer cologne",
+        "latex gloves, candle wax, and refrigerated air",
+        "rain sheen across concrete and limousine paint"
+      ],
+      "weather": [
+        "thin rain needling the city into sharper reflections",
+        "river fog lowering the skyline into a softer lie",
+        "wind on the rooftops tugging at coats and patience alike",
+        "humid night air trapping every scent too close to the skin",
+        "cold after-midnight air clearing crowds but sharpening nerves"
+      ],
+      "sounds": [
+        "muted club bass behind expensive conversation",
+        "security radios clicking under chamber music",
+        "heels on polished concrete and a laugh a beat too late",
+        "glassware chime, elevator ding, and breath held behind closed lips",
+        "a phone notification tone everyone pretends not to hear",
+        "church pipes and HVAC hum competing in the basement"
+      ]
+    },
+    "motions": [
+      "summons",
+      "escort",
+      "surveillance",
+      "negotiation",
+      "containment",
+      "interrogation",
+      "cover-up",
+      "revelation",
+      "breach control",
+      "forced choice",
+      "private bargain",
+      "social maneuver"
+    ],
+    "opportunities": [
+      "redirect the mortal broadcaster before she posts the one clip that matters",
+      "earn the Sheriff's trust by checking the breach before the court cleans it up",
+      "use the Harpy's appetite for gossip to surface the competition for the vacant seat",
+      "turn the archive into a place where the old murder can no longer stay buried",
+      "move through the undercity route before the party realizes it has been watched"
+    ],
+    "consequences": {
+      "small": [
+        "the immediate problem eases, but someone influential notices",
+        "a door opens socially or physically for the next move",
+        "one witness becomes more cooperative or more afraid",
+        "the player gains leverage, but not privacy",
+        "a clue becomes usable at the cost of neutrality"
+      ],
+      "major": [
+        "control of the night's narrative shifts hands",
+        "an alliance grows real enough to matter or dangerous enough to regret",
+        "the Prince, Sheriff, or Harpy must change strategy in response",
+        "a public scene becomes impossible to keep fully private",
+        "the player wins the moment but inherits the political weight of it"
+      ],
+      "erratic": [
+        "everyone must react before the original plan can continue",
+        "a manageable narrative becomes briefly wild in public or online",
+        "the interruption creates a new opening if handled immediately",
+        "a hidden tie between people, places, or evidence becomes harder to ignore",
+        "a private problem turns social without becoming fully public"
+      ],
+      "aftermath": [
+        "the court remembers the player as useful, dangerous, or impossible to place safely",
+        "one mortal walks away altered by a truth they cannot fully name",
+        "the city's public story survives, but not unchanged",
+        "an alliance settles into obligation rather than trust",
+        "Saint Halcyon's hierarchy tightens, cracks, or shifts sideways"
+      ]
+    },
+    "erratic_events": [
+      "a livestream notification explodes across several phones in the same room at once",
+      "venue security pulls the fire alarm to clear a floor at exactly the wrong moment",
+      "a police cruiser arrives because of an unrelated call that suddenly is not unrelated",
+      "the building backup generator kicks in and restores one camera feed everyone thought was gone",
+      "a ghoul courier staggers in bleeding and names the wrong person before collapsing",
+      "an elevator opens onto the scene carrying a guest no one expected to see tonight",
+      "the archive sprinkler system bursts over exactly the shelf someone needed",
+      "a scheduled gala speech starts while the room is still covered in private panic",
+      "a blackout kills the music but not the emergency lights",
+      "a forgotten body is found where the cleanup team swore no body remained",
+      "a coordinated online rumor names the venue just as discretion matters most",
+      "one important door quietly unlocks on its own",
+      "a witness calls the player by a name they never gave",
+      "the river warehouse power flickers, then reveals a room that was meant to stay dark"
+    ]
+  }
+}

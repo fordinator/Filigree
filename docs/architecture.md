@@ -1,0 +1,13 @@
+# Filigree architecture
+
+Filigree is a native SillyTavern frontend extension. `manifest.json` names `index.js`, `style.css`, and the real-generation interceptor. `index.js` boots `src/app.js` after `SillyTavern.getContext` is available. The UI is intentionally small: a settings panel, a solo-chat gameplay panel, a character wizard, and a scene-bank editor.
+
+The core modules are deliberately independent of the host. `src/core/rules.js` implements stats, dice, CV/DV/FV transforms, pressure, and finale arithmetic. `src/core/scenes.js` parses banks, constructs a loose compass, samples cues/cards, and assembles narrator instructions. `src/core/ledger.js` validates the active brief and quoted coherence audit. `src/core/campaign.js` validates and reduces campaign state, snapshots checkpoints, and parses imported saves.
+
+`src/engine.js` is the transaction coordinator. It takes a typed player event, checks the current chat/revision, records RNG draws and accepted model replies in a persistent operation, computes the turn, asks the narrator and audit service for a candidate, then commits the campaign before publishing chat messages. Its outbox makes publication recoverable when the campaign save succeeded but message insertion did not. `src/services/llm.js` adapts SillyTavern provider calls and validates structured replies. `src/services/story-turn.js` bounds the narration/continuity request and performs at most one automatic targeted repair per invocation.
+
+`src/adapters/sillytavern.js` is the host boundary. It derives a stable chat identity from character avatar plus chat ID, rejects group chats, saves into per-chat metadata, and reads the chat back from `/api/chats/get` to verify persistence. It also owns published message annotations, drafts, settings, and the legacy namespace read-through. SillyTavern may swallow an internal save error; the independent read-back is therefore part of the correctness contract, not just diagnostics.
+
+Only the scene bank, current transcript, descriptive active brief, and binding computed results enter narration. Old objective trackers are inert archival fields. Scene cues and the 30%/70% phase labels are soft guidance. The forced ending is code-owned: an already-exhausted committed turn budget plus the next genuine Critical Action yields a verdict from current and prior margins. The audit cannot overrule those calculations.
+
+The runtime assets are enumerated by `scripts/assets.mjs`, copied by `scripts/install.mjs`, and packaged by `scripts/package.mjs`. The tests use Node's built-in runner for core/engine/adapter behavior and Playwright for a controlled browser harness. The harness is not a paid-model or full native-host compatibility certificate.
