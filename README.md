@@ -14,7 +14,7 @@ Creating a character involves six stats with two methods: STR, DEX, CON, INT, WI
 
 After you determine your stats, write a small description of yourself and the type of world and adventure you want to have, and off you go!
 
-# Playing a Game
+## Playing a Game
 
 The gameplay is intuitive, but the system behind it isn't. Along the top you will see your six stats and their values. You can click one of these to "use" it, with the prompt you type in the box. So for example you might click INT and type "Examine the formula to derive the solution." Or you might click DEX and type "Fling the throwing star at the ninja." SEND your action and the LLM decides everything else: the difficulty (DV or "Difficulty Value") the importance of the role (CV or "Criticality Value") as well as a special rating for the quality of your command (FV or "Fancy Value.") Based on the roll and all these modifiers, plus your stat, you succeed or fail and the LLM's narration of the next turn is appropriate.
 
@@ -22,17 +22,17 @@ Below the six stats are three "trivial actions." These are usually informational
 
 Behind the scenes are working a complex system of plot hooks, narrative elements, characters, and scene pressure approaching a "turn clock" that prompts the end of the adventure. Once the "turn clock" counts down, the NEXT Critical Action decides that the adventure ends, and all Critical Actions so far along with the full context of the story determine the ending. In addition, if you reach a good spot that "feels right" to you, you can try an ending with "End Adventure." Undoing a turn does as described, but "Cancel Adventure" just nukes everything (if your game sucks for whatever reason) so feel free to use it until you experience something "cool."
 
-# The Scene Bank System
+## The Scene Bank System
 
 After **MANY MANY MANY** hours of testing, I determined for myself that LLM storylines suck. The characters are bland, the description is uninteresting, the plot either reflects whatever the user says or lingers in a "limbo" state where nothing really happens. To fix this, me and AI *itself* worked out a "scene bank" system. This is a "seed file" with `json` parsed values that are "injected" into the system prompt at set intervals to keep them lively. (You can view the default inside the 'scene banks' folder in this repo, submissions are welcome!)
 
 The cool part about this is you can pass the `json` to a decent LLM model and say for example, "write me a scene bank in this format for the Airwolf show on classic television." Then you can IMPORT it into Filigree and play an adventure that's generally "structured" without you actually knowing what it is. The Scene Bank editor is in the upper right of the panel, you have to IMPORT from `json` then "save for future adventures." This portion is **INCOMPLETE**, so maintaining a list of available "banks" is currently NOT supported -- you have to import each one yourself and SAVE, unless I decide to actually improve this system further.
 
-# So what's actually left of SillyTavern?
+## So what's actually left of SillyTavern?
 
 Under great duress, I added an option for the Character Card to be reflected in Filigree's storyline. The checkbox is misleading, but if you "Use <character> as Dungeon Master" the currently-loaded character card will appear in-game as your **PRIMARY SIDEKICK**, **NOT** the Dungeon Master. Any prompt this card uses as their "introductory message" WILL factor into the story, so for a completely "neutral" Filigree experience, do NOT use the character card and specify the default "Assistant" as your chat partner.
 
-# Choosing an LLM Model
+## Choosing an LLM Model
 
 This is probably the most important factor in whether you have a good or bad experience. Far be it from me to tell people what model to use, so I'll just give you the requirements: You need a model with "decent" role-playing ability that can "improvise" **BEYOND** its prompting relatively well, but it *also* needs to be "tool calling" so it can generate stats and rolls properly. Each "turn" of the game involves multiple prompts and a validation system to ensure nothing invalid is parsed, if you hit one of these you can cancel and retry, if it happens over and over you need a more compatible model. I have had success with local Qwen and Gemma variants, some of the cheaper models on OpenRouter, as well as ChatGPT and Claude, but the latter two tend to be focused more on consistency than creativity, in my mind.
 
